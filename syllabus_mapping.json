@@ -4,65 +4,153 @@
             "aerodynamics",
             "projectile motion",
             "collision dynamics",
-            "planetary orbit"
+            "planetary orbit",
+            "fluid dynamics",
+            "Bernoulli principle application",
+            "angular momentum conservation",
+            "damped oscillation",
+            "chaos theory mechanics",
+            "non-inertial reference frame"
         ],
         "電磁學 (Electromagnetism)": [
             "superconductor",
             "electromagnetic induction",
             "hall effect",
-            "wireless power transfer"
+            "wireless power transfer",
+            "Maxwell equations application",
+            "eddy current braking",
+            "geomagnetism",
+            "dipole antenna",
+            "circuit resonance",
+            "magnetic hysteresis"
         ],
         "光學與波動 (Optics & Waves)": [
             "fiber optics",
             "doppler effect",
             "laser physics",
-            "interference pattern"
+            "interference pattern",
+            "diffraction grating",
+            "metamaterials",
+            "gravitational waves",
+            "polarization optics",
+            "holography principle",
+            "standing wave acoustics"
+        ],
+        "熱學與能量 (Thermodynamics)": [
+            "entropy thermodynamics",
+            "heat engine efficiency",
+            "statistical mechanics",
+            "phase transition mechanism",
+            "thermal conductivity materials",
+            "ideal gas law deviation",
+            "Brownian motion"
         ],
         "近代物理 (Modern Physics)": [
             "quantum entanglement",
             "photoelectric effect",
             "nuclear fusion",
-            "standard model physics"
+            "standard model physics",
+            "semiconductor physics",
+            "band gap engineering",
+            "wave-particle duality",
+            "quantum tunneling",
+            "dark matter detection",
+            "neutrino oscillation"
         ]
     },
     "chemistry": {
         "物質構造 (Structure of Matter)": [
             "molecular orbital theory",
             "graphene structure",
-            "crystal lattice",
-            "coordination complex"
+            "crystal lattice defects",
+            "coordination complex",
+            "hydrogen bonding network",
+            "perovskite solar cells",
+            "nanomaterials synthesis",
+            "allotrope properties",
+            "supramolecular chemistry"
         ],
         "有機化學 (Organic Chemistry)": [
             "polymer degradation",
             "catalytic synthesis",
             "green chemistry",
-            "drug delivery system"
+            "drug delivery system",
+            "stereochemistry",
+            "peptide synthesis",
+            "functional group transformation",
+            "conductive polymers",
+            "chiral separation"
         ],
         "化學反應 (Chemical Reactions)": [
             "reaction kinetics",
             "electrochemical cell",
             "entropy change",
-            "buffer solution"
+            "buffer solution",
+            "activation energy analysis",
+            "heterogeneous catalysis",
+            "redox potential",
+            "chemical equilibrium shift",
+            "enzyme kinetics"
+        ],
+        "無機與分析化學 (Inorganic & Analytical)": [
+            "mass spectrometry analysis",
+            "chromatography techniques",
+            "transition metal catalysis",
+            "rare earth elements properties",
+            "zeolite framework",
+            "titration curve analysis",
+            "spectroscopic identification"
         ]
     },
     "biology": {
         "細胞與遺傳 (Cell & Genetics)": [
             "CRISPR-Cas9",
-            "mRNA vaccine",
+            "mRNA vaccine technology",
             "mitochondrial function",
-            "epigenetics"
+            "epigenetics",
+            "stem cell differentiation",
+            "signal transduction pathway",
+            "telomere shortening",
+            "non-coding RNA",
+            "apoptosis mechanism",
+            "gene expression regulation"
         ],
         "動物生理 (Animal Physiology)": [
             "neurotransmission",
             "T-cell immunity",
             "circadian rhythm",
-            "synaptic plasticity"
+            "synaptic plasticity",
+            "gut-brain axis",
+            "endocrine regulation",
+            "autoimmune disease mechanism",
+            "cardiovascular hemodynamics",
+            "metabolic syndrome"
+        ],
+        "植物生物學 (Plant Biology)": [
+            "photosynthesis efficiency",
+            "plant defense mechanism",
+            "auxin transport",
+            "transpiration pull",
+            "nitrogen fixation bacteria",
+            "plant circadian clock",
+            "phototropism mechanism"
         ],
         "生態與演化 (Ecology & Evolution)": [
             "biodiversity loss",
-            "carbon cycle",
+            "carbon cycle dynamics",
             "evolutionary adaptation",
-            "microbiome"
+            "microbiome symbiosis",
+            "phylogenetic tree analysis",
+            "invasive species impact",
+            "ocean acidification effects",
+            "population genetics"
+        ],
+        "生物技術 (Biotechnology)": [
+            "monoclonal antibodies",
+            "synthetic biology",
+            "biofuel production",
+            "PCR technology application",
+            "enzyme engineering"
         ]
     }
 }

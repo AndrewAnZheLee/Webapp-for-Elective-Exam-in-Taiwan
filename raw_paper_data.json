@@ -1,0 +1,10 @@
+{
+    "title": "Molecular Physiology of the Neuronal Synapse.",
+    "summary": "Neuronal synapses are the functional units of communication in the central nervous system. This review describes the molecular mechanisms regulating synaptic transmission, plasticity, and circuit refinement. At the presynaptic active zone, scaffolding proteins including bassoon, piccolo, RIMs, and munc13 organize vesicle priming and the localization of voltage-gated calcium channels. Neurotransmitter release is mediated by the SNARE complex, comprising syntaxin-1, SNAP25, and synaptobrevin, and triggered by the calcium sensor synaptotagmin-1. Following exocytosis, synaptic vesicles are recovered through clathrin-mediated, ultrafast, bulk, or kiss-and-run endocytic pathways. Postsynaptically, the postsynaptic density (PSD) serves as a protein hub where scaffolds such as PSD-95, shank, homer, and gephyrin anchor excitatory (AMPA, NMDA) and inhibitory (GABA-A, Glycine) receptors are observed. Synaptic strength is modified during long-term potentiation (LTP) and depression (LTD) through signaling cascades involving kinases like CaMKII, PKA, and PKC, or phosphatases such as PP1 and calcineurin. These pathways regulate receptor trafficking, Arc-mediated endocytosis, and actin-dependent remodeling of dendritic spines. Additionally, synapse formation and elimination are guided by cell adhesion molecules, including neurexins and neuroligins, and by microglial pruning via the complement cascade (C1q, C3) and \"don't eat me\" signals like CD47. Molecular diversity is further expanded by alternative splicing and post-translational modifications. A unified model of synaptic homeostasis is required to understand the basis of neuropsychiatric and neurological disorders.",
+    "published": "2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41614918/",
+    "source": "PubMed",
+    "mapping_chapter": "動物生理 (Animal Physiology)",
+    "mapping_keyword": "neurotransmission",
+    "subject": "biology"
+}
