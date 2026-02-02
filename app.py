@@ -6,7 +6,7 @@ import pandas as pd
 import plotly.graph_objects as go
 # === 1. 頁面基礎設定 ===
 st.set_page_config(
-    page_title="分科測驗：前沿科普日報",
+    page_title="分科測驗素養練習",
     page_icon="🧬",
     layout="wide", # 使用寬螢幕模式
     initial_sidebar_state="expanded"
@@ -390,4 +390,5 @@ else:
                             st.error(f"❌ 答錯了！正確答案是 {ans}")
                             st.info(f"詳解：{chart_data['explanation']}")
                     else:
+
                         st.warning("請先作答！")
