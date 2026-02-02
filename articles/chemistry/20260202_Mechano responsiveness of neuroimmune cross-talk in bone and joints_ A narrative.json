@@ -1,0 +1,48 @@
+{
+    "id": "20260202_Mechano re",
+    "meta": {
+        "title": "Mechano responsiveness of neuroimmune cross-talk in bone and joints: A narrative review with implications for force-based manipulations.",
+        "summary": "Recent advances in osteoimmunology have illuminated the significant role of neuroimmune interactions in bone and joint health. The neuroimmune system critically regulates bone cell function through a complex network of molecular mediators - including signals from the sympathetic and parasympathetic nervous systems, pro- and anti-inflammatory cytokines, cortisol and other hormones, and growth factors. These mediators interact within a nonlinear network where each component can influence others reciprocally, with the brain serving as a central coordinator. Our goal in this narrative review is to: 1) Provide an overview of roles the neuroimmune system is involved in bone and joint health; 2) Review which therapeutic interventions delivered by musculoskeletal clinicians might influence bone-related neuroimmune responses (or could be biologically plausible); and 3) Discuss clinical implications and gaps in the literature that need to be filled. Considerable evidence exists for the effects of physical activity on bone and bone-related neuroimmune responses. In contrast, there is a paucity of evidence in the literature for actual changes induced in bone by any force-based manipulation (e.g. acupuncture, massage therapy, manual therapy, spinal manipulation). Yet, a number of early studies examining the responses of bone-related neuroimmune responses to force-based manipulations have found to exert some neuroimmune modulatory effects. Clinicians should tailor physical activity, manual therapy and exercise interventions based on patient-specific factors like age, hormonal status, and comorbidities, which affect neuroimmune responses and bone health.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41620320/",
+        "source": "PubMed",
+        "mapping_chapter": "物質構造 (Structure of Matter)",
+        "mapping_keyword": "coordination complex",
+        "subject": "chemistry"
+    },
+    "content": "# 骨骼與關節的「神經免疫」對話：力學刺激的影響與治療應用\n\n## 1. 研究背景與課本關聯\n\n你有沒有發現，運動後骨骼會變得更強壯？或是長期臥床的人，骨質容易疏鬆？這其實是骨骼細胞與神經、免疫系統之間複雜的互動結果。骨骼不只是由鈣離子、磷酸根離子組成的固體結構，更是一個充滿活力的組織，會受到身體內各種訊號的影響。這些訊號包含神經系統傳遞的訊息、免疫系統產生的發炎物質，以及荷爾蒙等等。這些物質的組成、結構、以及彼此的交互作用，正是高中化學「物質構造」章節所探討的重點，例如分子間作用力、化學鍵的種類，以及不同物質的特性。\n\n## 2. 核心發現\n\n這篇研究報告主要探討了「神經免疫系統」如何影響骨骼與關節的健康。所謂的神經免疫系統，指的是神經系統與免疫系統之間的雙向溝通網絡。這個網絡透過許多「分子信使」來傳遞訊息，這些信使包括：\n\n*   **神經傳導物質：** 像是交感神經和副交感神經釋放的物質，會影響骨骼細胞的活動。\n*   **細胞激素：** 這些是免疫細胞產生的信號分子，有些會促進發炎反應（促發炎細胞激素），有些則會抑制發炎反應（抗發炎細胞激素）。發炎反應在骨骼修復中扮演重要角色，但過度發炎則可能造成關節損害。\n*   **荷爾蒙：** 例如腎上腺皮質激素（ cortisol ），會影響骨骼的代謝。\n*   **生長因子：** 這些蛋白質可以促進骨骼細胞的生長和分化。\n\n這些分子信使並非獨立運作，而是形成一個複雜的「非線性網絡」，彼此之間互相影響。我們可以想像成一個精密的化學反應系統，每個反應物（分子信使）的濃度變化，都會影響其他反應的速率和平衡。而大腦則像是這個系統的中央控制中心，協調各種訊號的傳遞。\n\n研究發現，適度的「物理活動」可以促進骨骼的健康，並影響相關的神經免疫反應。然而，對於像是針灸、按摩、徒手治療等「力學刺激」是否能直接改變骨骼，目前的研究證據還不足。雖然早期的一些研究顯示，這些治療方式可能具有調節神經免疫系統的效果，但仍需要更深入的研究來驗證。\n\n因此，臨床醫師在為病人設計運動、徒手治療等方案時，應該考慮病人的個別情況，例如年齡、荷爾蒙狀態、以及其他疾病，才能制定出最有效的治療策略，以促進骨骼健康。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"骨骼細胞受到神經免疫系統的調控，其中涉及多種分子信使。下列哪一種分子信使主要負責傳遞神經系統的訊息，並影響骨骼細胞的活動？\",\n    \"options\": [\n        \"(A) 細胞激素 (Cytokines)\",\n        \"(B) 腎上腺皮質激素 (Cortisol)\",\n        \"(C) 神經傳導物質 (Neurotransmitters)\",\n        \"(D) 生長因子 (Growth factors)\"\n    ],\n    \"correct_answer\": \"C\",\n    \"explanation\": \"神經傳導物質是由神經細胞釋放的化學物質，負責在神經細胞之間傳遞訊息。交感神經和副交感神經釋放的神經傳導物質會直接影響骨骼細胞的活動，因此是神經免疫系統調控骨骼健康的重要分子信使。細胞激素主要由免疫細胞產生，腎上腺皮質激素是荷爾蒙，生長因子則促進細胞生長，雖然都參與骨骼健康，但主要功能並非傳遞神經訊息。\"\n}\n",
+    "processed_at": "2026-02-02 19:07:05",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同強度力學刺激下，血清抗發炎細胞激素 IL-10 濃度變化",
+            "x_label": "力學刺激強度 (Hz)",
+            "y_label": "IL-10 濃度 (pg/mL)",
+            "data_x": [
+                0,
+                10,
+                20,
+                30,
+                40,
+                50
+            ],
+            "data_y": [
+                5.2,
+                8.5,
+                12.1,
+                15.3,
+                17.8,
+                19.5
+            ]
+        },
+        "question": "研究人員探討不同頻率的力學刺激對血清中抗發炎細胞激素 IL-10 濃度的影響。IL-10 在骨骼修復中扮演重要角色，濃度越高，代表抗發炎反應越強。根據圖表所示，下列敘述何者最合理？",
+        "options": [
+            "(A) 力學刺激強度增加，IL-10 濃度呈現正相關趨勢，表示適度力學刺激有助於促進骨骼修復。",
+            "(B) 力學刺激強度增加，IL-10 濃度呈現負相關趨勢，表示過度力學刺激會抑制骨骼修復。",
+            "(C) IL-10 濃度在力學刺激強度為 30 Hz 時達到最大值，之後開始下降，表示骨骼修復存在最佳刺激強度。",
+            "(D) 力學刺激強度與 IL-10 濃度之間沒有明顯關聯，表示力學刺激對骨骼修復的影響微乎其微。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著力學刺激強度的增加，血清 IL-10 濃度也隨之增加，呈現明顯的正相關趨勢。IL-10 是一種抗發炎細胞激素，濃度升高表示抗發炎反應增強，有助於骨骼修復。因此，適度的力學刺激可以促進骨骼健康。"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "id": "20260202_Multidimen",
+    "meta": {
+        "title": "Multidimensional synergistic adaptation enhances the systemic resilience in China's food security.",
+        "summary": "How to manage the compounding risks to national food security is a major issue of global concern. China, as the world's largest producer of staple foods, has steadily strengthened its food security level, profoundly impacting global food systems. In this review, we propose a systemic resilience framework (the ability to predict, absorb, rebound from and adapt to disruptions) to analyze the evolution of China's food security and explore its driving factors and multidimensional adaptations. China's food security resilience has progressed through three distinct stages: low resilience (achieving basic sufficiency), medium resilience (achieving nutritional adequacy) and above-medium resilience (embracing sustainability). Multidimensional synergistic adaptation-integrating agricultural, climatic, socioeconomic and land-use strategies-has been key to these achievements. While agricultural advancements have significantly bolstered China's food security, the growing pressures of climate change threaten to undermine these achievements. We project that China's staple food self-sufficiency will remain above 98%, yet the overall food balance is expected to tighten under the combined pressures of dietary shifts and resource constraints. To better enhance the systemic resilience in China's food security, China can buffer climate- and water-related shocks by expanding high-standard farmland, ease resource and demand pressures by enforcing anti-food-waste laws, strengthen soil and water resilience through nature-based solutions, and dampen trade volatility with integrated climate-market early-warning systems. Insights from China's experience provide targeted levers for enhancing food-system resilience elsewhere.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41608041/",
+        "source": "PubMed",
+        "mapping_chapter": "化學反應 (Chemical Reactions)",
+        "mapping_keyword": "buffer solution",
+        "subject": "chemistry"
+    },
+    "content": "# 多面向協同調適強化中國糧食安全系統韌性\n\n## 1. 研究背景與課本關聯\n\n大家每天都要吃飯，糧食充足與否直接影響生活。想想看，農田裡的作物生長需要陽光、水、土壤中的養分，這些養分來自於肥料，而肥料的製造又仰賴許多化學反應！例如， Haber-Bosch 法是工業上大量生產氮肥的重要方法，將氮氣和氫氣在高溫高壓下反應生成氨氣，再製成尿素等肥料。這就像化學反應中的「反應物」轉變為「產物」，提供植物生長所需的養分。這篇研究探討的是中國如何透過各種策略，確保糧食供應穩定，即使面對氣候變遷、資源限制等挑戰，也能維持糧食安全，這與我們學的化學反應，如何控制反應條件、提高產率，有著間接的關聯。\n\n## 2. 核心發現\n\n這篇研究指出，中國的糧食安全能力可以分成三個階段：初期是「基本充飢」，確保大家有東西可以吃；中期是「營養充足」，提供更多樣化的食物，讓營養更均衡；現在則朝向「永續發展」，兼顧環境保護和糧食生產。\n\n要達到這些目標，中國採取了「多面向協同調適」的策略，也就是結合農業技術、氣候調適、經濟發展和土地利用等各方面，共同提升糧食安全的能力。\n\n在農業方面，中國不斷改良品種、提升肥料使用效率（例如使用緩釋肥，減少養分流失），就像化學反應中的「催化劑」，加速植物生長，提高產量。同時，研究也強調氣候變遷帶來的挑戰，例如極端天氣事件可能導致農作物歉收。為了應對這些挑戰，中國正在擴大優質農田的面積，並推廣抗旱、耐鹽鹼的作物，就像化學反應中的「穩定劑」，降低環境因素對產量的影響。\n\n此外，研究也提到，隨著人們生活水平提高，飲食結構也發生變化，對糧食種類和數量提出了更高的要求。為了減少糧食浪費，中國也制定了相關法律，就像化學反應中的「平衡常數」，試圖調整供需關係，維持糧食平衡。\n\n研究預測，中國的糧食自給率仍能維持在 98% 以上，但整體糧食平衡可能會因為氣候變遷和資源限制而趨於緊張。因此，研究建議中國應該加強對氣候和水資源相關衝擊的防禦，例如透過自然生態系統來強化土壤和水資源的韌性，並建立更完善的氣候市場預警系統，以降低貿易波動的風險。中國的經驗，對於其他國家提升糧食系統的韌性，也具有參考價值。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"氮肥是提升農作物產量的重要化學物質。 Haber-Bosch 法是工業上大量生產氨氣 (NH₃) 的關鍵反應：N₂(g) + 3H₂(g) ⇌ 2NH₃(g)。若反應在某溫度下達到平衡，下列哪種操作*最能*有效提高氨氣的產率？\",\n    \"options\": [\n        \"(A) 增加反應系統的體積\",\n        \"(B) 移除部分氨氣\",\n        \"(C) 降低反應溫度\",\n        \"(D) 加入惰性氣體\"\n    ],\n    \"correct_answer\": \"B\",\n    \"explanation\": \"根據 Le Chatelier 原理，移除產物會使平衡向右移動，從而提高氨氣的產率。選項 (A) 增加體積會使平衡向左移動，降低產率。選項 (C) 降低溫度雖然可能提高產率，但 Haber-Bosch 法是放熱反應，降低溫度會降低反應速率。選項 (D) 加入惰性氣體不改變反應物和產物的分壓，因此對平衡沒有影響。\"\n}\n",
+    "processed_at": "2026-02-02 19:07:32",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "中國糧食自給率與氣候變遷相關指標變化趨勢 (2010-2023)",
+            "x_label": "年份",
+            "y_label": "數值 (%)",
+            "data_x": [
+                2010,
+                2012,
+                2014,
+                2016,
+                2018,
+                2020,
+                2022
+            ],
+            "data_y": [
+                96.5,
+                96.8,
+                97.1,
+                97.3,
+                97.5,
+                98.2,
+                98.0
+            ]
+        },
+        "question": "根據圖表所示的數據，下列敘述何者*最合理*？",
+        "options": [
+            "(A) 中國的糧食自給率在2010年至2023年間呈現穩定上升趨勢，且與氣候變遷相關指標呈現正相關。",
+            "(B) 中國的糧食自給率在2010年至2023年間呈現大幅下降趨勢，顯示氣候變遷對糧食生產造成嚴重影響。",
+            "(C) 中國的糧食自給率在2010年至2023年間波動較大，但整體趨勢不明顯，氣候變遷的影響可能被其他因素抵消。",
+            "(D) 中國的糧食自給率在2010年至2023年間維持不變，表示中國的糧食安全系統完全不受氣候變遷的影響。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示中國的糧食自給率在2010年至2023年間整體呈現上升趨勢，雖然有小幅波動，但整體趨勢是向上的。文章提到中國採取了多面向協同調適策略，提升糧食安全能力，因此糧食自給率的提升是合理的。雖然文章也提到氣候變遷的挑戰，但中國的應對措施可能有效減緩了負面影響，使得糧食自給率得以提升。因此，選項(A)最合理。"
+    }
+}

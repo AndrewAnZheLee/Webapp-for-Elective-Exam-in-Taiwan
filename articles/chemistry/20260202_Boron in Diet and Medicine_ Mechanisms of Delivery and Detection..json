@@ -1,0 +1,48 @@
+{
+    "id": "20260202_Boron in D",
+    "meta": {
+        "title": "Boron in Diet and Medicine: Mechanisms of Delivery and Detection.",
+        "summary": "Boron is a trace element with multifaceted chemical and biological properties that underpin its emerging relevance in human health and medicinal chemistry. Although present in organisms at very low concentrations, boron participates in key physiological processes, including mineral metabolism, bone homeostasis, hormonal regulation, immune modulation, and redox balance. Its unique electronic structure-characterized by electron deficiency and the ability to form multi-center bonds-gives rise to diverse allotropic, cluster, and coordination chemistries, enabling the formation of biologically active complexes and therapeutic agents. Dietary boron, derived mainly from plant-based foods, is efficiently absorbed and predominantly excreted by the kidneys, showing a strong correlation between intake and urinary levels. Current evidence suggests beneficial effects of boron on bone mineral density, cognitive function, inflammation, antioxidant defenses, and metabolic regulation, although the precise molecular mechanisms remain partially understood. In medicinal chemistry, a broad spectrum of boron-containing compounds-including borates, boronic acids, boronated amino acids, carboranes, and metallacarboranes-has gained clinical and preclinical importance. These compounds serve as enzyme inhibitors, antimicrobial and anti-inflammatory agents, metabolic modulators, and critical boron carriers in boron neutron capture therapy (BNCT), which leverages the neutron-capture properties of <sup>10</sup>B for targeted cancer treatment. Advances in synthesis, functionalization, and nanocarrier design have expanded the therapeutic potential of boron-based molecules. Ongoing research aims to optimize their selectivity, biodistribution, safety, and diagnostic integration. Overall, boron represents a versatile and rapidly developing component of modern biomedical science, with promising implications for oncology, infectious diseases, metabolic disorders, and precision medicine.",
+        "published": "2025",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41599680/",
+        "source": "PubMed",
+        "mapping_chapter": "物質構造 (Structure of Matter)",
+        "mapping_keyword": "allotrope properties",
+        "subject": "chemistry"
+    },
+    "content": "# 硼：飲食與醫學中的角色與機轉\n\n## 1. 研究背景與課本關聯\n\n你可能在水果、蔬菜中聽過「硼」這個元素，它雖然不是我們身體大量需要的元素，但卻扮演著重要的角色。就像我們需要補充微量的鐵來幫助運送氧氣一樣，硼也參與了許多生理過程。這篇研究探討的就是硼如何進入我們的身體，以及它在醫學上的應用。這與高中化學的「物質構造」章節息息相關，因為硼的特殊電子結構決定了它的化學性質，進而影響它在生物體內的行為，例如形成特殊的化學鍵，以及參與不同的化學反應。\n\n## 2. 核心發現\n\n硼是一種微量元素，雖然含量不高，卻參與了許多重要的生理過程，包含礦物質代謝、骨骼健康、荷爾蒙調節、免疫系統功能，以及維持細胞內的氧化還原平衡。硼之所以能有這麼多功能，與它的電子結構有關。硼原子外層電子數不足，容易形成缺電子結構，因此它能形成多中心鍵，也就是一個硼原子可以與多個原子結合。這種特殊的鍵結方式，使得硼可以形成多種結構，像是硼的同素異形體、硼簇，以及配位化合物。\n\n這些不同的結構，讓硼可以與其他分子結合，形成具有生物活性的錯合物，進而發揮治療效果。我們從食物中攝取的硼，主要來自於植物性食物，例如水果和蔬菜。硼在體內被有效地吸收，並主要透過腎臟排出，因此尿液中的硼濃度可以反映我們攝取的量。研究顯示，適量的硼攝取可能有助於提高骨密度、增強認知功能、減輕發炎反應、提升抗氧化能力，以及調節新陳代謝。\n\n在醫學上，許多含硼的化合物，例如硼酸鹽、硼酸、硼化胺基酸、碳硼烷和金屬碳硼烷，都具有潛在的治療價值。這些化合物可以作為酵素抑制劑，抑制特定酵素的活性；也可以作為抗菌劑和抗發炎劑，對抗感染和發炎；甚至可以調節新陳代謝，改善身體機能。其中，硼中同位素<sup>10</sup>B的特性，在硼中子捕獲療法 (BNCT) 中扮演關鍵角色。BNCT利用<sup>10</sup>B吸收中子的能力，針對癌細胞進行治療，是一種精準的癌症治療方式。\n\n目前，科學家們正努力開發新的含硼化合物，並利用奈米載體技術，提高這些化合物的選擇性、生物分布、安全性，以及診斷能力，希望能將硼應用於更多領域，例如腫瘤學、感染症、新陳代謝疾病，以及精準醫療。總體而言，硼是一個多功能且快速發展的生物醫學元件，具有廣闊的應用前景。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"硼的特殊電子結構使其能夠形成多中心鍵。下列哪一個化學概念最能解釋此現象？\",\n    \"options\": [\n        \"(A) 八隅體規則不滿足，硼原子傾向於接受電子對。\",\n        \"(B) 硼原子具有完整的價電子層，不易參與化學反應。\",\n        \"(C) 硼原子具有較低的電負度，容易失去電子。\",\n        \"(D) 硼原子具有較高的電負度，容易吸引電子。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"硼原子外層只有三個電子，不滿足八隅體規則，因此容易缺電子，傾向於接受電子對，形成多中心鍵。選項 (B) 錯誤，硼原子不具備完整的價電子層。選項 (C) 和 (D) 描述的電負度特性與硼的化學行為不符。\"\n}\n",
+    "processed_at": "2026-02-02 19:05:17",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同硼攝取量對骨密度之影響",
+            "x_label": "每日硼攝取量 (mg)",
+            "y_label": "骨密度 (g/cm³)",
+            "data_x": [
+                0.5,
+                1.0,
+                1.5,
+                2.0,
+                2.5,
+                3.0
+            ],
+            "data_y": [
+                0.85,
+                0.92,
+                0.98,
+                1.05,
+                1.1,
+                1.12
+            ]
+        },
+        "question": "研究人員進行一項實驗，探討每日不同劑量的硼攝取量對骨密度之影響。下圖呈現實驗結果，請問根據圖表資訊，下列敘述何者最合理？",
+        "options": [
+            "(A) 硼攝取量與骨密度呈現正相關，但當硼攝取量達到 2.5 mg 以上時，骨密度增加幅度趨緩。",
+            "(B) 硼攝取量與骨密度呈現負相關，表示硼攝取量越高，骨密度越低。",
+            "(C) 硼攝取量對骨密度沒有顯著影響，圖表呈現的數據僅為隨機波動。",
+            "(D) 硼攝取量在 0.5 mg 時，骨密度最高，隨著硼攝取量增加，骨密度反而下降。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表呈現一條上升的趨勢線，表示硼攝取量與骨密度呈現正相關。然而，當硼攝取量達到 2.5 mg 以上時，曲線的斜率變小，表示骨密度增加幅度趨緩，達到一個飽和的狀態。選項 (B) 與圖表呈現的趨勢相反。選項 (C) 忽略了圖表明顯的趨勢。選項 (D) 與圖表呈現的趨勢相反。"
+    }
+}

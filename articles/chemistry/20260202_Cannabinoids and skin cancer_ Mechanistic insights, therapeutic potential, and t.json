@@ -1,0 +1,50 @@
+{
+    "id": "20260202_Cannabinoi",
+    "meta": {
+        "title": "Cannabinoids and skin cancer: Mechanistic insights, therapeutic potential, and translational perspectives.",
+        "summary": "Skin cancer represents a significant global healthcare challenge, with rising incidence and persistent gaps in effective long-term management. Recent evidence has identified the endocannabinoid system as an emerging therapeutic target offering novel pharmacological approaches for the prevention and treatment of various skin cancers. Cannabinoids, through modulation of the endocannabinoid system, have demonstrated antitumor activity by inhibiting tumor proliferation, angiogenesis, invasion, and metastasis and by inducing apoptosis and autophagy in malignant cells. This review synthesizes the most recent preclinical evidence on phytocannabinoids, endocannabinoids, and synthetic cannabinoids in melanoma and non-melanoma skin cancers, delineating receptor-dependent and receptor-independent mechanisms. Additionally, emerging cannabinoid-based delivery strategies, particularly cannabidiol formulations designed to enhance skin penetration and therapeutic efficacy, are critically examined. Despite encouraging preclinical findings, clinical translation remains limited by scarce skin-cancer-specific trials, variability in cannabinoid preparations, and uncertainties around dosing and safety. Consequently, robust mechanistic studies and well-designed clinical trials are required to validate cannabinoids' therapeutic potential and guide their integration into future skin cancer treatment paradigms.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41621140/",
+        "source": "PubMed",
+        "mapping_chapter": "有機化學 (Organic Chemistry)",
+        "mapping_keyword": "drug delivery system",
+        "subject": "chemistry"
+    },
+    "content": "# 大麻素與皮膚癌：機轉、治療潛力與臨床應用 (Cannabinoids and skin cancer: Mechanistic insights, therapeutic potential, and translational perspectives.)\n\n## 1. 研究背景與課本關聯\n\n皮膚癌是全球常見的癌症之一，罹患率逐年上升。近年來，科學家發現大麻中的成分，也就是「大麻素」，可能對皮膚癌具有治療潛力。這聽起來很新穎，但其實與我們高中化學學到的「有機化學」息息相關！大麻素本身就是複雜的有機分子，它們的結構決定了它們與身體內特定蛋白質的結合能力，進而影響細胞的行為。就像我們學習的官能基如何影響分子的性質一樣，大麻素的結構也決定了它們的藥理作用。想想看，我們在學習醇、醛、酮、羧酸時，這些都是構成大麻素複雜結構的基礎喔！\n\n## 2. 核心發現\n\n這篇研究探討了大麻素如何影響皮膚癌細胞。首先，我們需要了解身體內存在一個叫做「內源性大麻素系統 (Endocannabinoid System, ECS)」的系統，它參與調節許多生理功能，包含免疫反應、疼痛感和細胞生長。大麻素，無論是來自植物（例如大麻中的四氫大麻酚 THC、大麻二酚 CBD），身體自行製造的內源性大麻素，或是人工合成的大麻素，都能與 ECS 中的受體結合，進而影響細胞行為。\n\n研究發現，大麻素可以透過多種方式抑制皮膚癌細胞的生長。首先，它可以抑制癌細胞的「增殖 (proliferation)」，也就是癌細胞分裂和繁殖的速度。其次，它可以抑制「血管新生 (angiogenesis)」，癌細胞需要血管提供養分才能生長，阻斷血管新生可以切斷癌細胞的食物來源。此外，大麻素還能抑制癌細胞的「轉移 (metastasis)」，也就是癌細胞從原本的位置擴散到身體其他部位。\n\n更重要的是，大麻素可以誘發癌細胞的「細胞凋亡 (apoptosis)」，這是一種細胞自我毀滅的機制，可以清除癌細胞。同時，它也能促進「自噬作用 (autophagy)」，這是一種細胞清除受損細胞器的機制，有助於維持細胞的健康。\n\n研究也提到，大麻素的作用不完全依賴於與 ECS 受體的結合，還有一些「非受體依賴」的機制。此外，科學家正在研究如何設計更好的大麻素製劑，例如使用特殊配方增加 CBD 滲透皮膚的能力，以提高治療效果。\n\n然而，目前的研究大多是在實驗室中進行的「前臨床研究」，還需要更多針對皮膚癌患者的「臨床試驗」來驗證大麻素的療效和安全性。此外，不同的大麻素製劑品質不一，劑量和使用方法也需要謹慎評估，才能確保治療效果並避免副作用。\n---\n```json\n{\n    \"question\": \"假設研究人員發現某種大麻素衍生物（結構式：R-COOH）能有效抑制黑色素瘤細胞的增殖，且其作用機制與抑制細胞週期有關。已知羧酸 (COOH) 官能基在化學反應中扮演重要角色，例如形成酯鍵。請問下列哪一敘述最能合理解釋該大麻素衍生物可能如何影響細胞週期？\",\n    \"options\": [\n        \"(A) 該衍生物可能與細胞週期蛋白依賴性激酶 (CDK) 形成共價鍵，使其失活，進而阻斷細胞週期。\",\n        \"(B) 該衍生物可能增加細胞內 mRNA 的轉錄速率，加速細胞週期。\",\n        \"(C) 該衍生物可能促進細胞膜的磷脂雙層結構，使細胞更容易分裂。\",\n        \"(D) 該衍生物可能降低細胞內 ATP 的濃度，使細胞無法進行能量代謝。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"羧酸官能基可以參與形成共價鍵，例如酯鍵。細胞週期蛋白依賴性激酶 (CDK) 是調控細胞週期的重要酵素，如果大麻素衍生物能與 CDK 形成共價鍵，使其失活，就能阻斷細胞週期，進而抑制癌細胞增殖。選項 (B) 錯誤，mRNA轉錄速率增加會加速細胞週期，與抑制增殖的結果不符。選項 (C) 錯誤，磷脂雙層結構與細胞週期無直接關聯。選項 (D) 錯誤，降低 ATP 濃度會影響所有細胞功能，不特異性。\"\n}\n```\n",
+    "processed_at": "2026-02-02 19:05:41",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同濃度 CBD 對黑色素瘤細胞增殖的影響",
+            "x_label": "CBD 濃度 (μM)",
+            "y_label": "細胞增殖率 (%)",
+            "data_x": [
+                0,
+                1,
+                5,
+                10,
+                25,
+                50,
+                100
+            ],
+            "data_y": [
+                100,
+                95,
+                80,
+                65,
+                40,
+                20,
+                10
+            ]
+        },
+        "question": "研究人員以不同濃度的 CBD (大麻二酚) 處理黑色素瘤細胞，並測量細胞增殖率。圖表顯示 CBD 濃度與細胞增殖率之間的關係。根據圖表結果，下列哪一敘述最合理？",
+        "options": [
+            "(A) CBD 濃度越高，細胞增殖率越高，呈現正相關。",
+            "(B) CBD 濃度越高，細胞增殖率越低，呈現負相關。",
+            "(C) CBD 對細胞增殖率沒有影響，增殖率維持不變。",
+            "(D) 細胞增殖率在 CBD 濃度為 25 μM 時達到最大值。"
+        ],
+        "correct_answer": "B",
+        "explanation": "圖表顯示，隨著 CBD 濃度的增加，細胞增殖率呈現下降趨勢。這表示 CBD 具有抑制黑色素瘤細胞增殖的作用，兩者呈現負相關。選項 A 描述的是正相關，與圖表結果相反。選項 C 錯誤，因為圖表明顯顯示 CBD 濃度會影響細胞增殖率。選項 D 錯誤，因為圖表顯示增殖率在 CBD 濃度為 0 μM 時達到最大值。"
+    }
+}

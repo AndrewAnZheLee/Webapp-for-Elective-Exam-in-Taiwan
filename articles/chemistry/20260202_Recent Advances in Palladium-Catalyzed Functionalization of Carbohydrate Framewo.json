@@ -1,0 +1,48 @@
+{
+    "id": "20260202_Recent Adv",
+    "meta": {
+        "title": "Recent Advances in Palladium-Catalyzed Functionalization of Carbohydrate Frameworks.",
+        "summary": "Carbohydrates are essential biomolecules that play critical roles in biological processes such as energy storage, cellular communication, and immune response regulation. Their structural complexity arises primarily due to the presence of various hydroxyl groups and stereocenters, which presents significant challenges for structural modification and functionalization. Traditional carbohydrate functionalization strategies often necessitate multiple protecting groups and harsh reaction conditions. This in turn limits their efficiency and synthetic flexibility. In recent years, transition metal catalysis, particularly palladium-mediated protocols, has emerged as a powerful tool for selective and efficient carbohydrate functionalization under mild conditions. Palladium catalysis has enabled diverse transformations, including glycosylation, C─C and C─X (X = O, N, S) bond formation, and regioselective derivatization, significantly expanding the chemical space of carbohydrates and glycoconjugates. This review provides a comprehensive analysis of recent advancements in palladium-catalyzed carbohydrate functionalization over the past 8 years, with a focus on synthetic strategies, mechanistic insights, and practical applications. By highlighting the latest developments and future directions, this review aims to serve as a valuable resource for the researchers working at the interface of carbohydrate chemistry, catalysis, and biomedical sciences.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41603585/",
+        "source": "PubMed",
+        "mapping_chapter": "無機與分析化學 (Inorganic & Analytical)",
+        "mapping_keyword": "transition metal catalysis",
+        "subject": "chemistry"
+    },
+    "content": "# 醣類化學的新進展：利用鈀催化劑打造更多元的醣類分子\n\n## 1. 研究背景與課本關聯\n\n你吃下的米飯、麵包，水果中的果糖，牛奶中的乳糖，都是醣類！醣類不僅提供我們能量，還參與細胞間的訊息傳遞，甚至影響免疫系統。但醣類分子結構複雜，上面有很多羥基(-OH)，要改變它的結構，就像在樂高積木上加裝零件，非常困難。傳統方法需要繁瑣的保護基，而且反應條件通常很嚴苛。這與高中化學的「無機與分析化學」章節中學習的「配位化學」息息相關，因為本研究利用了鈀這種過渡金屬作為催化劑，透過配位作用來活化醣類分子，使其更容易發生反應。\n\n## 2. 核心發現\n\n這篇研究報告主要講述了近年來，科學家們利用**鈀 (Palladium, Pd)** 作為**催化劑**，來改造醣類分子的新方法。鈀是一種**過渡金屬**，具有良好的催化能力，可以加速化學反應的進行，而且通常在溫和的條件下就能達成。\n\n過去，要改變醣類分子的結構，需要先用保護基將不需要反應的羥基保護起來，反應完成後再移除保護基，步驟繁瑣且效率不高。現在，透過鈀催化劑，我們可以更精準地在醣類分子上建立新的**共價鍵**，例如**碳-碳鍵 (C-C)**、**碳-氧鍵 (C-O)**、**碳-氮鍵 (C-N)**、**碳-硫鍵 (C-S)** 等。\n\n具體來說，鈀催化劑可以幫助醣類分子進行**糖基化 (Glycosylation)**，也就是將醣類分子連接到其他分子上，形成更複雜的**醣共軛物 (Glycoconjugates)**。此外，鈀催化劑還能實現醣類分子的**區域選擇性 (Regioselectivity)** 衍生化，也就是只在醣類分子上的特定位置進行反應，避免產生不必要的副產物。\n\n這些新方法不僅提高了醣類改造的效率，也擴展了醣類分子的應用範圍。例如，可以合成具有特殊功能的醣類藥物，或是用於開發新的生物材料。研究報告中分析了過去八年來鈀催化醣類改造的最新進展，並探討了未來發展的方向，對於從事醣類化學、催化化學和生物醫學研究的人員來說，是一份非常有價值的參考資料。簡單來說，就像是幫醣類分子穿上不同的外衣，讓它們擁有更多不同的能力！\n\n---\n```json\n{\n    \"question\": \"某研究團隊利用鈀催化劑成功將葡萄糖分子上的特定羥基轉換為胺基(-NH₂)，並發現此胺基化的葡萄糖衍生物具有抗癌活性。請問，此反應最能體現鈀催化劑在醣類功能化的哪一項優勢？\",\n    \"options\": [\n        \"(A) 提高醣類改造的效率，減少保護基的使用。\",\n        \"(B) 能夠進行糖基化反應，形成醣共軛物。\",\n        \"(C) 實現醣類分子的區域選擇性衍生化，精準控制反應位置。\",\n        \"(D) 能夠在嚴苛的反應條件下進行醣類改造。\"\n    ],\n    \"correct_answer\": \"C\",\n    \"explanation\": \"胺基化反應是將葡萄糖上的特定羥基取代為胺基，這體現了鈀催化劑能夠精準控制反應位置，實現區域選擇性衍生化的優勢。選項(A)雖然是鈀催化劑的優點，但與題目描述的胺基化反應關聯性較弱。選項(B)描述的是糖基化反應，與胺基化反應不同。選項(D)則與鈀催化劑通常在溫和條件下反應的特性相反。\"\n}\n```\n",
+    "processed_at": "2026-02-02 19:09:01",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同鈀催化劑濃度下，葡萄糖糖基化反應產率變化",
+            "x_label": "鈀催化劑濃度 (mol/L)",
+            "y_label": "糖基化產率 (%)",
+            "data_x": [
+                0.001,
+                0.002,
+                0.003,
+                0.004,
+                0.005,
+                0.006
+            ],
+            "data_y": [
+                12.5,
+                35.2,
+                68.1,
+                82.7,
+                88.5,
+                90.3
+            ]
+        },
+        "question": "某研究團隊利用鈀催化劑進行葡萄糖糖基化反應，並探討了催化劑濃度對反應產率的影響。圖表顯示了不同鈀催化劑濃度下，葡萄糖糖基化反應的產率變化趨勢。根據圖表資訊，下列敘述何者最合理？",
+        "options": [
+            "(A) 隨著鈀催化劑濃度的增加，葡萄糖糖基化反應的產率逐漸增加，但增加幅度逐漸減緩。",
+            "(B) 鈀催化劑濃度與葡萄糖糖基化反應的產率呈負相關。",
+            "(C) 在鈀催化劑濃度為 0.001 mol/L 時，葡萄糖糖基化反應的產率最高。",
+            "(D) 葡萄糖糖基化反應的產率不受鈀催化劑濃度的影響。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著鈀催化劑濃度的增加，產率整體呈現上升趨勢。然而，當濃度達到 0.005 mol/L 後，產率的增加幅度明顯變小，趨近於一個飽和值。這表示增加催化劑濃度雖然可以提高反應速率，但達到一定濃度後，效果會變得不明顯，因此選項(A)最合理。選項(B)與圖表趨勢相反。選項(C)錯誤，因為 0.001 mol/L 時產率最低。選項(D)顯然不正確，因為圖表顯示產率受到催化劑濃度的影響。"
+    }
+}
