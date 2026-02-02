@@ -1,0 +1,15 @@
+{
+    "id": "20260202_Design of ",
+    "meta": {
+        "title": "Design of an Axial Flux Permanent Magnet Eddy Current Brake for Application on Light Weight Motor Vehicles",
+        "summary": "Axial flux permanent magnet designs are compact and becoming an attractive design for electric vehicles as an auxiliary braking system. This work develops the design of an Axial Flux Permanent Magnet Eddy current brake for application on Light Weight Motor Vehicles as guided by industry regulations. The work makes a link between the common Finite Element Method approach used in the literature and the Analytical approach previously done. The design is conducted to meet the torque requirements per wheel. The average torque over the operating range closest to the design requirement was used as the solution.",
+        "published": "2023-06-19",
+        "url": "http://arxiv.org/abs/2306.10710v1",
+        "source": "arXiv",
+        "mapping_chapter": "電磁學 (Electromagnetism)",
+        "mapping_keyword": "eddy current braking",
+        "subject": "physics"
+    },
+    "content": "# 輕型電動車的守護者：軸向磁通永磁式渦電流煞車系統設計\n\n## 1. 研究背景與課本關聯\n想像你騎著單車下坡，長時間按壓煞車皮會因摩擦生熱而導致效能衰退。在現代電動車領域，科學家正開發一種「不接觸」就能減速的技術。這篇研究探討的是「軸向磁通永磁式渦電流煞車」。這與高中物理選修物理三〈電磁感應〉章節息息相關。當金屬盤在磁場中轉動時，會因磁通量改變產生「渦電流」，進而產生反抗運動的力矩。掌握了法拉第電磁感應定律與冷次定律，你就掌握了這項未來煞車技術的核心。\n\n## 2. 核心發現\n這項研究的核心在於為輕型電動車設計一套體積小、效率高的輔助煞車系統。不同於傳統馬達常見的徑向磁場，研究者採用了「軸向磁通（Axial Flux）」設計，這意味著磁力線的方向與轉軸平行，結構更為緊湊，非常適合空間有限的輕型載具。\n\n在物理機制上，當電動車的輪軸帶動金屬圓盤旋轉並通過永磁鐵產生的強大磁場時，圓盤內部的磁通量會發生劇烈變化。根據「法拉第電磁感應定律」，圓盤內會感應出電動勢；又根據「冷次定律」，這些感應電流（即渦電流）所產生的新磁場，必然會反抗原先導致磁通量變化的相對運動。這種反抗力會對圓盤產生一個「煞車力矩（Braking Torque）」，將車輛的動能轉化為熱能散失，達到減速效果。\n\n本研究的一大貢獻是結合了「解析法（Analytical approach）」與「有限元素法（FEM）」。在高中物理中，我們習慣用簡單的公式推導（解析法），但在工程實務上，磁場分布極其複雜，必須透過電腦模擬（有限元素法）來精確計算。研究團隊成功將兩者連結，確保設計出的煞車系統能滿足工業法規對每顆輪胎所需的煞車力矩要求。\n\n研究結果顯示，在設計要求的運作範圍內，該系統能提供穩定的平均力矩。這種煞車系統最大的優點在於「無磨耗」且「反應極快」，雖然它無法完全取代靜止用的機械煞車，但作為電動車的高速輔助煞車，能大幅提升安全性並減少傳統煞車皮的損耗。\n\n===QUIZ_JSON===\n{\n    \"question\": \"關於本研究中提到的「渦電流煞車」物理原理，下列敘述何者正確？\",\n    \"options\": [\n        \"(A) 當金屬圓盤轉速越快時，磁通量變化率越大，產生的煞車力矩也隨之增強\",\n        \"(B) 渦電流煞車是利用靜電力來達成減速效果，因此不需要與轉軸接觸\",\n        \"(C) 根據冷次定律，感應電流產生的磁場方向必然與永磁鐵提供的磁場方向相同\",\n        \"(D) 若將金屬圓盤換成絕緣體材質（如陶瓷），其煞車效果將會維持不變\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"(A) 正確。根據法拉第電磁感應定律，感應電動勢與磁通量變化率成正比，轉速快則變化率大，感應電流強，煞車力矩也大。(B) 錯誤。是利用電磁感應產生的磁力，而非靜電力。(C) 錯誤。冷次定律是指感應電流產生的磁場要「反抗」磁通量的變化，而非方向必然相同。(D) 錯誤。絕緣體無法產生顯著的渦電流，因此無法產生煞車力矩。\"\n}",
+    "processed_at": "2026-02-02 13:49:52"
+}
