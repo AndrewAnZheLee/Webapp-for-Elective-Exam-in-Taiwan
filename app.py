@@ -126,16 +126,34 @@ else:
             with c3: st.caption(f"**來源：** [{meta.get('source')}]({meta.get('url', '#')})")
             st.divider()
             
-            # === 2. 智慧解析：分離文章與題目 ===
-            # 我們設定的分隔符號
-            split_marker = "===QUIZ_JSON==="
+           # === 2. 智慧解析：分離文章與題目 (增強版) ===
             
-            if split_marker in content:
-                # 切割：前面是文章，後面是 JSON 字串
-                parts = content.split(split_marker)
+            article_text = content
+            json_text = None
+            
+            # 策略 A：標準模式 (找特定標籤)
+            marker = "===QUIZ_JSON==="
+            if marker in content:
+                parts = content.split(marker)
                 article_text = parts[0]
-                json_text = parts[1].strip() # 移除前後空白
+                json_text = parts[1]
+            
+            # 策略 B：備用模式 (如果 AI 忘記加標籤，但有加分隔線)
+            elif "\n---" in content:
+                # rsplit 代表從右邊(後面)開始切，切 1 刀
+                # 這樣可以找到文章最後面那一段
+                parts = content.rsplit("\n---", 1)
                 
+                # 檢查切出來的後半段像不像 JSON (有大括號)
+                if len(parts) > 1 and "{" in parts[1] and "}" in parts[1]:
+                    candidate_json = parts[1].strip()
+                    # 簡單檢查一下開頭是不是 {
+                    if candidate_json.startswith("{") or candidate_json.startswith("```"):
+                        article_text = parts[0]
+                        json_text = candidate_json
+
+            # 如果成功抓到 JSON 文字，就開始解析
+            if json_text:
                 # 顯示科普文章本體
                 st.markdown(article_text)
                 
@@ -144,60 +162,55 @@ else:
                 st.subheader("📝 隨堂測驗")
                 
                 try:
-                    # === 修正開始：清洗 AI 雞婆加入的 Markdown 標記 ===
-                    # 1. 移除前後空白
-                    json_text = parts[1].strip()
-                    
-                    # 2. 如果 AI 加了 ```json 或 ```，把它們刪掉
+                    # 清洗 AI 雞婆加入的 Markdown 標記
+                    json_text = json_text.strip()
                     if json_text.startswith("```"):
+                        # 移除 ```json 或 ```
                         json_text = json_text.replace("```json", "").replace("```", "").strip()
-                    # =================================================
                     
-                    # 把 JSON 字串變成 Python 字典
+                    # 解析 JSON
                     quiz_data = json.loads(json_text)
                     
                     # A. 顯示題目
                     st.write(f"**題目：** {quiz_data['question']}")
                     
-                    # B. 顯示選項 (Radio Button)
-                    # key 很重要！必須加上 article id，否則切換文章時選項會卡住
+                    # B. 顯示選項
                     user_choice = st.radio(
                         "請選擇一個答案：",
                         quiz_data['options'],
                         key=f"radio_{article['id']}",
-                        index=None  # 預設不選任何一個
+                        index=None
                     )
                     
-                    # C. 送出按鈕與判斷
-                    # 使用 expander 預設隱藏詳解，答對或點開才看得到
-                    check_btn = st.button("送出答案", key=f"btn_{article['id']}")
-                    
-                    if check_btn:
+                    # C. 送出按鈕
+                    if st.button("送出答案", key=f"btn_{article['id']}"):
                         if user_choice:
-                            # 判斷邏輯：檢查選項開頭是否包含正確答案 (例如 "(A)")
-                            # 假設 correct_answer 是 "A"
-                            correct_tag = f"({quiz_data['correct_answer']})"
+                            # 判斷答案 (假設正確答案是 A，選項是 (A)...)
+                            ans_char = quiz_data['correct_answer'].upper() # 轉大寫防呆
+                            correct_tag = f"({ans_char})"
                             
                             if correct_tag in user_choice:
-                                st.balloons() # 答對放氣球！
-                                st.success(f"🎉 答對了！答案是 {quiz_data['correct_answer']}")
-                                st.markdown(f"### 💡 詳解")
+                                st.balloons()
+                                st.success(f"🎉 答對了！答案是 {ans_char}")
+                                st.markdown("### 💡 詳解")
                                 st.info(quiz_data['explanation'])
                             else:
-                                st.error(f"❌ 答錯囉！再試試看？")
+                                st.error(f"❌ 答錯囉！正確答案是 {ans_char}")
+                                st.markdown("### 💡 詳解")
+                                st.info(quiz_data['explanation'])
                         else:
                             st.warning("請先選擇一個選項喔！")
 
-                    # 如果沒按按鈕，但想直接看詳解 (偷看模式)
+                    # 偷看詳解
                     with st.expander("👁️ 偷看詳解"):
                          st.markdown(f"**正確答案：({quiz_data['correct_answer']})**")
                          st.markdown(quiz_data['explanation'])
 
                 except json.JSONDecodeError:
-                    st.error("⚠️ 題目資料解析失敗，請通知管理員 (JSON Error)")
-                    # 如果解析失敗，把原始文字印出來除錯
-                    st.code(json_text)
+                    st.error("⚠️ 題目資料格式有誤，無法轉換為測驗。")
+                    with st.expander("查看原始資料 (Debug)"):
+                        st.code(json_text)
             
             else:
-                # 舊文章沒有 JSON，直接顯示全文
+                # 如果完全找不到 JSON，就顯示全文
                 st.markdown(content)

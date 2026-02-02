@@ -18,7 +18,7 @@ genai.configure(api_key=api_key)
 
 # 請使用你之前測試成功的模型 (例如 'models/gemini-pro' 或 'models/gemini-1.5-flash')
 # 如果不確定，請先跑 check_models.py
-model = genai.GenerativeModel('models/gemini-2.5-flash-lite') 
+model = genai.GenerativeModel('models/gemini-3-flash-preview') 
 
 # === 2. 輔助函式 ===
 

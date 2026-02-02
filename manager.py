@@ -5,7 +5,7 @@ import os
 
 # === 設定區 ===
 # 你想要一次抓幾篇論文？
-BATCH_SIZE = 15 
+BATCH_SIZE = 20
 
 # 每次抓取的間隔秒數 (避免被 API 封鎖)
 FETCH_INTERVAL = 2
