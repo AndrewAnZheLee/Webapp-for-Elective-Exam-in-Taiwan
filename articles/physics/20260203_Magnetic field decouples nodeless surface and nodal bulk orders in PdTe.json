@@ -1,0 +1,52 @@
+{
+    "id": "20260203_Magnetic f",
+    "meta": {
+        "title": "Magnetic field decouples nodeless surface and nodal bulk orders in PdTe",
+        "summary": "Selective spectroscopic disentanglement of surface and bulk quantum orders remains an outstanding challenge in condensed matter physics. The candidate topological superconductor PdTe has recently been proposed to host a nodeless surface gap on top of a nodal bulk state, but their direct identification and mutual coupling remained experimentally elusive. Here, we employ magnetic-field-dependent Andreev reflection spectroscopy to spectroscopically disentangle these components. At zero magnetic field, the spectra exhibit a BCS-like gap structure, consistent with dominant transport through a fully gapped surface superconducting state. Strikingly, even a weak magnetic field leads to an abrupt suppression of the Andreev-enhanced conductance (AEC), while a residual AEC, attributable to the nodal bulk state, persists to much higher magnetic fields. The transition is accompanied by pronounced magnetic hysteresis pointing to the existence of vortex dynamics at low fields. Our findings suggest that the nodal bulk gap facilitates early vortex entry, which in turn disrupts the fragile surface superconductivity. These results establish a field-tunable decoupling of surface and bulk superconductivity and illustrate how distinct gap topologies can shape the global superconducting order in multichannel systems.",
+        "published": "2026-01-12",
+        "url": "http://arxiv.org/abs/2601.07493v2",
+        "source": "arXiv",
+        "mapping_chapter": "電磁學 (Electromagnetism)",
+        "mapping_keyword": "magnetic hysteresis",
+        "subject": "physics"
+    },
+    "content": "# 磁場解耦 PdTe 材料中的表面無節點與體系節點能隙\n\n## 1. 研究背景與課本關聯\n\n你有沒有聽過超導體？超導體是一種很特別的材料，在低溫下電阻會消失，讓電流可以毫無阻礙地流動。想像一下，如果電力輸送過程中沒有電阻，那將會節省多少能源！這項研究探討的是一種名為 PdTe 的材料，它可能是一種「拓撲超導體」，具有一些特殊的超導性質。而研究中使用的「磁場」對超導體的影響，正是高中物理「電磁學」章節的重要內容，例如我們學過的洛倫茲力、磁場對電流的影響等等，都與這個研究息息相關。\n\n## 2. 核心發現\n\n這項研究發現，在 PdTe 材料中，表面和體系（bulk）的超導性質並不是緊密結合的，而是可以透過外加磁場來解耦。\n\n首先，研究人員利用「安德列夫反射光譜」(Andreev reflection spectroscopy) 這種技術來觀察 PdTe 材料的電子行為。在沒有磁場的情況下，他們觀察到一個類似「BCS 能隙」的結構，這表示材料的表面呈現出「完全能隙超導」的特性，也就是說，表面上的電子受到能量限制，形成一個能隙，阻止低能量的電子通過。\n\n然而，當施加一個微弱的磁場時，情況就變得有趣了。原本強烈的「安德列夫反射增強導電性」(AEC) 迅速下降，但並未完全消失。研究人員發現，即使在較高的磁場下，仍然存在一些殘餘的 AEC，而這部分 AEC 被認為是來自於體系中的「節點能隙超導」。\n\n什麼是「節點能隙」呢？與「完全能隙」不同，「節點能隙」在能量譜上並不是完全被隔開的，而是存在一些能量為零的點，也就是「節點」。這表示體系中的電子更容易受到磁場的影響。\n\n更重要的是，研究人員觀察到磁場變化時出現了明顯的「磁滯現象」(magnetic hysteresis)，這暗示著在低磁場下，材料內部存在著「渦流」(vortex) 的動態。這些渦流的產生，是因為磁場穿透超導體時，會形成一些磁通量管，而這些磁通量管的運動就形成了渦流。\n\n研究結果顯示，體系中的節點能隙，使得渦流更容易進入材料內部，進而破壞了表面脆弱的超導性。換句話說，磁場就像一把鑰匙，可以解開表面和體系超導性的連結，讓我們得以分別研究它們的特性。\n\n這項研究證明了，我們可以透過調整磁場來控制 PdTe 材料中表面和體系的超導性，並且揭示了不同能隙拓撲結構如何影響整個材料的超導行為。這對於未來開發新型超導材料具有重要的意義。\n\n---\n```json\n{\n    \"question\": \"某研究團隊發現，在 PdTe 材料中，施加磁場會導致表面超導性被抑制，但體系超導性仍然存在。假設該團隊使用一個 0.1 Tesla 的均勻磁場進行實驗，若 PdTe 材料的表面超導體臨界磁場為 0.05 Tesla，體系超導體臨界磁場為 0.2 Tesla，請問此實驗中，下列敘述何者正確？\",\n    \"options\": [\n        \"(A) 表面超導體會進入正常態，而體系超導體仍維持超導態。\",\n        \"(B) 表面超導體和體系超導體都會進入正常態。\",\n        \"(C) 表面超導體和體系超導體都會維持超導態。\",\n        \"(D) 磁場對 PdTe 材料的超導性沒有影響。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"臨界磁場是指超導體失去超導性的磁場強度。由於施加的磁場 (0.1 Tesla) 大於表面超導體的臨界磁場 (0.05 Tesla)，因此表面超導體會失去超導性，進入正常態。然而，磁場 (0.1 Tesla) 小於體系超導體的臨界磁場 (0.2 Tesla)，因此體系超導體仍維持超導態。所以答案是 (A)。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:51:11",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "PdTe 材料在不同磁場下安德列夫反射增強導電性 (AEC) 的變化",
+            "x_label": "磁場強度 (Tesla)",
+            "y_label": "安德列夫反射增強導電性 (AEC，相對值)",
+            "data_x": [
+                0,
+                0.01,
+                0.02,
+                0.03,
+                0.04,
+                0.05,
+                0.06,
+                0.07
+            ],
+            "data_y": [
+                1.0,
+                0.98,
+                0.95,
+                0.88,
+                0.75,
+                0.5,
+                0.25,
+                0.1
+            ]
+        },
+        "question": "根據圖表所示，PdTe 材料的安德列夫反射增強導電性 (AEC) 隨磁場強度變化的趨勢，請問下列敘述何者最符合文章內容及圖表資訊？",
+        "options": [
+            "(A) AEC 隨磁場強度增加而顯著下降，顯示磁場抑制了表面超導性。",
+            "(B) AEC 隨磁場強度增加而增加，表示磁場增強了表面超導性。",
+            "(C) AEC 在所有磁場強度下都保持不變，表示磁場對表面超導性沒有影響。",
+            "(D) AEC 先增加後下降，表示 PdTe 材料具有複雜的磁場響應機制。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著磁場強度從 0 Tesla 增加到 0.07 Tesla，AEC 值從 1.0 顯著下降到 0.10。這與文章中描述的「原本強烈的安德列夫反射增強導電性 (AEC) 迅速下降」的現象一致，表明磁場的確抑制了 PdTe 材料的表面超導性。選項 (B) 和 (C) 與圖表數據不符，選項 (D) 雖然可能存在，但圖表主要呈現的是單調下降的趨勢，因此 (A) 是最直接且最符合文章內容的答案。"
+    }
+}

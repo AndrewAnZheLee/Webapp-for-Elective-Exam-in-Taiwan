@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Temporal-S",
+    "meta": {
+        "title": "Temporal-Spatial Interference Pattern During Solitons Interaction",
+        "summary": "Interference patterns associated with soliton-soliton interaction are investigated in detail. We find that the temporal and spatial interference patterns exhibit quite different characteristics. The period of the spatial interference pattern is determined by the relative velocity of the solitons, and the temporal pattern behavior is determined by the peak amplitudes and the kinetic energy of the solitons. Analytical expressions for the periods of the interference patterns are obtained. A method for classifying the nonlinearity of many nonlinear systems is proposed. As an example, we discuss possibilities to observe these properties of solitons in a nonlinear planar waveguide.",
+        "published": "2013-08-18",
+        "url": "http://arxiv.org/abs/1308.3832v1",
+        "source": "arXiv",
+        "mapping_chapter": "光學與波動 (Optics & Waves)",
+        "mapping_keyword": "interference pattern",
+        "subject": "physics"
+    },
+    "content": "# 孤子交互作用中的時空干涉圖形\n\n## 1. 研究背景與課本關聯\n\n你有沒有在水面上看到過，即使經過碰撞，波形卻幾乎沒有改變，繼續前進的特殊波？這就像是孤子！孤子是一種特殊的波動，它能維持自身形狀，在傳播過程中不易分散。這項研究探討的就是兩個孤子相遇時，產生的干涉現象。想想光線經過雙狹縫產生的干涉條紋，或是水波的疊加，孤子相遇時也會產生類似的干涉，但情況更複雜。這與高中物理課本「光學與波動」章節中學習的「波動疊加原理」、「干涉」以及「光波的性質」息息相關，只是這次研究的對象是更特別的孤子。\n\n## 2. 核心發現\n\n這篇研究深入探討了兩個孤子相互作用時產生的干涉圖形，發現了時域（時間）和空域（空間）的干涉圖形有著截然不同的特性。\n\n首先，我們知道干涉圖形的週期性與波的性質有關。研究發現，空間干涉圖形的週期，是由於兩個孤子的相對速度所決定的。也就是說，孤子移動得越快，空間干涉條紋的間距就越小；反之，移動得越慢，條紋間距就越大。這就像光波干涉時，波長會影響干涉條紋的間距一樣。\n\n更重要的是，研究人員發現時間干涉圖形的行為，則是由孤子的峰值振幅（也就是波的最大高度）和動能所決定。峰值振幅越大，代表孤子攜帶的能量越多，時間干涉圖形的變化也會更劇烈。動能越大，也代表孤子越不容易受到其他因素的影響，時間干涉圖形也更穩定。\n\n研究團隊甚至推導出計算這些干涉圖形週期的公式，讓我們可以更精確地預測孤子交互作用的結果。此外，他們也提出了一種方法，可以用來判斷不同非線性系統的非線性程度。\n\n為了實際觀測這些現象，研究人員建議可以在一種稱為「非線性平面波導」的特殊結構中進行實驗。這種波導可以有效地限制光波的傳播，讓孤子更容易形成和觀察。總而言之，這項研究讓我們對孤子的行為有了更深入的了解，也為未來在光通訊等領域的應用奠定了基礎。\n\n\n\n---\n```json\n{\n    \"question\": \"兩個相同的孤子，分別以 v 和 -v 的速度在同一直線上相遇。假設在相遇瞬間，兩個孤子的峰值振幅相同，且動能也相同。根據這篇研究，下列哪一個敘述最能描述相遇後產生的空間干涉圖形？\",\n    \"options\": [\n        \"(A) 干涉條紋的週期與 2v 成正比。\",\n        \"(B) 干涉條紋的週期與 v 成反比。\",\n        \"(C) 干涉條紋的週期與孤子的峰值振幅有關。\",\n        \"(D) 干涉條紋的週期與孤子的動能有關。\"\n    ],\n    \"correct_answer\": \"B\",\n    \"explanation\": \"根據研究摘要，空間干涉圖形的週期是由兩個孤子的相對速度所決定的。兩個孤子的相對速度為 v - (-v) = 2v。因此，干涉條紋的週期與 2v 成反比，也就是說，干涉條紋的週期與 v 成反比。選項 (A) 錯誤，因為週期與速度成反比，而非正比。選項 (C) 和 (D) 錯誤，因為時間干涉圖形才與峰值振幅和動能有關。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:58:29",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "scatter",
+            "title": "孤子相對速度與空間干涉圖形週期的關係",
+            "x_label": "相對速度 (m/s)",
+            "y_label": "空間干涉圖形週期 (cm)",
+            "data_x": [
+                5,
+                10,
+                15,
+                20,
+                25,
+                30
+            ],
+            "data_y": [
+                6.0,
+                3.0,
+                2.0,
+                1.5,
+                1.2,
+                1.0
+            ]
+        },
+        "question": "研究人員進行一系列實驗，探討不同相對速度下，兩個孤子相遇時產生的空間干涉圖形週期。實驗結果如圖所示。根據圖表和文章內容，下列哪一個結論最合理？",
+        "options": [
+            "(A) 空間干涉圖形週期與相對速度成反比。",
+            "(B) 空間干涉圖形週期與相對速度成正比。",
+            "(C) 空間干涉圖形週期與相對速度的平方成正比。",
+            "(D) 空間干涉圖形週期與相對速度無明顯關係。"
+        ],
+        "correct_answer": "A",
+        "explanation": "根據文章，空間干涉圖形的週期是由兩個孤子的相對速度所決定的。圖表顯示，隨著相對速度的增加，空間干涉圖形的週期逐漸減小。這表明空間干涉圖形週期與相對速度成反比。選項 (B) 錯誤，因為圖表顯示週期隨速度增加而減小。選項 (C) 和 (D) 均與實驗數據不符。"
+    }
+}

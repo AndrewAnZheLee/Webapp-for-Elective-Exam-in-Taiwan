@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Classical ",
+    "meta": {
+        "title": "Classical electromagnetic model of surface states in topological insulators",
+        "summary": "A topological insulator is classically modeled as an isotropic dielectric-magnetic with a magnetoelectric pseudoscalar $Ψ$ existing in its bulk while its surface is charge-free and current-free. An alternative model is obtained by setting $Ψ\\equiv0$ and incorporating surface charge and current densities characterized by an admittance $γ$. Analysis of plane-wave reflection and refraction due to a topological-insulator half space reveals that the parameters $Ψ$ and $γ$ arise identically in the reflection and transmission coefficients, implying that the two classical models cannot be distinguished on the basis of any scattering scenario. However, as $Ψ$ disappears from the Maxwell equations applicable to any region occupied by the topological insulator, and because surface states exist on topological insulators as protected conducting states, the alternative model must be chosen.",
+        "published": "2016-01-11",
+        "url": "http://arxiv.org/abs/1601.02525v1",
+        "source": "arXiv",
+        "mapping_chapter": "電磁學 (Electromagnetism)",
+        "mapping_keyword": "Maxwell equations application",
+        "subject": "physics"
+    },
+    "content": "# 拓樸絕緣體的表面態：古典電磁學模型\n\n## 1. 研究背景與課本關聯\n\n你有沒有想過，有些物質的表面可以導電，但內部卻是絕緣體呢？這就像是把電線表面包上一層塑膠，外面可以傳電，裡面卻不會。這種奇特的物質就叫做「拓樸絕緣體」。這篇研究探討的就是如何用我們學過的電磁學理論，來解釋拓樸絕緣體表面導電的現象。這與高中物理課本的「電磁學」章節緊密相關，特別是關於電場、磁場、介電質、以及電磁波的反射與折射等概念，都是理解這篇研究的基礎。\n\n## 2. 核心發現\n\n這篇論文主要探討了如何用古典電磁學來描述拓樸絕緣體的表面態。簡單來說，拓樸絕緣體可以被視為一種特殊的介電質，但它內部具有一種稱為「偽純量」Ψ的特性，這代表著物質內部存在著電場和磁場的特殊關聯。\n\n研究者提出了兩種模型來描述拓樸絕緣體：\n\n*   **模型一：** 假設拓樸絕緣體內部存在偽純量 Ψ，且表面沒有電荷或電流。\n*   **模型二：** 假設拓樸絕緣體內部 Ψ 等於零，但允許表面存在電荷和電流，並用「導納」γ來描述表面電荷和電流的關係。\n\n研究者分析了當電磁波照射到拓樸絕緣體半空間時，反射和折射的現象。他們發現，無論使用哪一種模型，計算出的反射係數和透射係數都是一樣的，也就是說，從電磁波的反射和折射現象來看，這兩種模型是無法區分的。\n\n然而，更深入的思考發現，偽純量 Ψ 在描述拓樸絕緣體內部電磁場的馬克士威方程組中會消失。而拓樸絕緣體表面導電的「表面態」是受到保護的導電通道，這表示表面必須存在電荷和電流。因此，為了更準確地描述拓樸絕緣體的特性，研究者認為**模型二**才是更適合的選擇。\n\n換句話說，雖然兩種模型在計算反射和折射時結果相同，但從更根本的物理原理來看，必須考慮表面電荷和電流的存在，才能正確描述拓樸絕緣體的表面態。這項研究幫助我們更深入了解拓樸絕緣體這種奇特物質的電磁特性，並為未來相關的材料研究奠定了基礎。\n\n---\n```json\n{\n    \"question\": \"一束頻率為 f 的平面電磁波，以垂直的角度入射到一個拓樸絕緣體半空間。假設拓樸絕緣體的特性參數為 Ψ = 0，導納為 γ。若入射電磁波的電場強度為 E₀，則反射電場強度的理論值為何？(提示：考慮到拓樸絕緣體的表面特性，反射係數會受到 γ 的影響)\",\n    \"options\": [\n        \"(A) -E₀\",\n        \"(B) E₀\",\n        \"(C) 0\",\n        \"(D) 2E₀\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"由於 Ψ = 0，我們採用模型二，考慮表面電荷和電流的影響。在這種情況下，反射係數 R 會受到導納 γ 的影響，且在拓樸絕緣體表面會產生反射波。根據電磁波反射原理，反射電場強度與入射電場強度成正比，但方向相反，因此反射電場強度為 -E₀。選項 (B) 錯誤，因為反射波方向相反；選項 (C) 錯誤，因為一定會有反射；選項 (D) 錯誤，反射電場強度不應是入射電場強度的兩倍。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:47:52",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同導納 γ 下拓樸絕緣體的反射係數",
+            "x_label": "導納 γ (S/m)",
+            "y_label": "反射係數 R",
+            "data_x": [
+                0.1,
+                0.2,
+                0.3,
+                0.4,
+                0.5,
+                0.6
+            ],
+            "data_y": [
+                -0.6,
+                -0.7,
+                -0.8,
+                -0.85,
+                -0.9,
+                -0.95
+            ]
+        },
+        "question": "研究者對不同導納 γ 的拓樸絕緣體進行實驗，測量了反射係數 R。已知入射電磁波頻率 f = 10 GHz，且實驗結果如圖所示。根據圖表和文章內容，下列敘述何者最合理？",
+        "options": [
+            "(A) 導納 γ 越大，反射係數 R 的絕對值越大，表示反射的電磁波強度越強。",
+            "(B) 導納 γ 越大，反射係數 R 的絕對值越小，表示反射的電磁波強度越弱。",
+            "(C) 反射係數 R 與導納 γ 無關，拓樸絕緣體的反射特性與表面電荷和電流無關。",
+            "(D) 導納 γ 越大，反射係數 R 趨近於正值，表示反射波與入射波同相。"
+        ],
+        "correct_answer": "A",
+        "explanation": "根據圖表，可以觀察到隨著導納 γ 的增加，反射係數 R 的絕對值也逐漸增大。反射係數的絕對值代表反射的電磁波強度，因此導納 γ 越大，反射的電磁波強度越強。文章中提到模型二考慮了表面電荷和電流的影響，而導納 γ 正是描述表面電荷和電流關係的參數，因此反射係數與導納 γ 相關。選項 (B) 與圖表趨勢相反；選項 (C) 錯誤，因為圖表顯示 R 與 γ 有關；選項 (D) 錯誤，因為 R 始終為負值，表示反射波與入射波反相。"
+    }
+}

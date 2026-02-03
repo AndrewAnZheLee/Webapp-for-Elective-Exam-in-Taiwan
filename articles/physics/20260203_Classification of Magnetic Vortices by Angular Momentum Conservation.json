@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Classifica",
+    "meta": {
+        "title": "Classification of Magnetic Vortices by Angular Momentum Conservation",
+        "summary": "Superfluid vortices are quantum excitations carrying quantized amount of orbital angular momentum in a phase where global symmetry is spontaneously broken. We address a question of whether magnetic vortices in superconductors with dynamical gauge fields can carry nonzero orbital angular momentum or not. We discuss the angular momentum conservation in several distinct classes of examples from crossdisciplinary fields of physics across condensed matter, dense nuclear systems, and cosmology. The angular momentum carried by gauge field configurations around the magnetic vortex plays a crucial role in satisfying the principle of the conservation law. Based on various ways how the angular momentum conservation is realized, we provide a general scheme of classifying magnetic vortices in different phases of matter.",
+        "published": "2020-11-13",
+        "url": "http://arxiv.org/abs/2011.06981v1",
+        "source": "arXiv",
+        "mapping_chapter": "力學 (Mechanics)",
+        "mapping_keyword": "angular momentum conservation",
+        "subject": "physics"
+    },
+    "content": "# 磁渦旋的分類：角動量守恆的考量\n\n## 1. 研究背景與課本關聯\n\n你可能在科學展覽或新聞中看過超導現象，例如磁懸浮列車。這些現象都與物質內部的特殊運動有關。想像一個旋轉的溜冰選手，當他收攏雙臂時，旋轉速度會加快，這就是角動量守恆的展現。這篇研究探討的是在超導體中，一種稱為「磁渦旋」的特殊結構，它是否也遵守角動量守恆定律。這與高中物理的「力學」章節中學習的「角動量」概念息息相關，只是將研究對象從宏觀的溜冰選手，拉到微觀的量子世界。\n\n## 2. 核心發現\n\n這篇論文研究的是超導體內部的「磁渦旋」。超導體是一種特殊的物質，在低溫下電阻會消失，電流可以毫無阻礙地流動。但如果超導體處於磁場中，磁力線無法直接穿透超導體，而是會以「磁渦旋」的形式進入。\n\n磁渦旋可以想像成一個微小的漩渦，中心有一個磁場，周圍則是由超導電流環繞。這個漩渦的形成，與量子力學中的「角動量」有關。角動量可以分為「軌道角動量」和「自旋角動量」，就像地球繞太陽公轉的角動量，以及地球本身的自轉角動量。\n\n這篇研究的重點是，探討磁渦旋是否具有非零的軌道角動量。傳統觀念認為，磁渦旋本身不帶有角動量，但研究人員發現，在某些情況下，圍繞磁渦旋的「規範場」（gauge field，可以理解為描述電磁場的數學工具）的配置，會攜帶角動量。\n\n更進一步地，研究人員發現，不同種類的超導體，以及不同環境下（例如，在密度極高的核系統或宇宙學模型中），磁渦旋的角動量守恆方式也不同。他們根據角動量守恆的實現方式，提出了一種分類磁渦旋的通用方法。\n\n簡單來說，這項研究證明了磁渦旋的角動量並非固定不變，而是受到周圍環境和物質特性的影響。理解磁渦旋的角動量特性，對於更深入地了解超導現象、以及其他相關的物理系統（例如，宇宙中的星系旋轉）都具有重要的意義。研究結果也提醒我們，即使在微觀世界，基本的物理定律（例如角動量守恆）仍然扮演著關鍵的角色。\n\n---\n```json\n{\n    \"question\": \"一個質量為 m 的粒子，以速度 v 在水平面上做等速圓周運動，圓周半徑為 r。若此粒子突然受到一個與運動方向垂直的恆定外力作用，使得其軌道半徑變為 2r，則粒子新的角動量大小為何？（假設外力不改變粒子速度的大小）\",\n    \"options\": [\n        \"(A) 2mv r\",\n        \"(B) mv r\",\n        \"(C) 4mv r\",\n        \"(D) 0.5mv r\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"角動量 L = Iω = mr²ω，其中 I 為慣性矩，ω 為角速度。由於外力不改變速度大小 v，且軌道半徑變為 2r，則新的角速度 ω' = v/(2r)。因此，新的角動量 L' = m(2r)²(v/(2r)) = 2mv r。選項 (A) 正確。選項 (B) 是原始角動量，(C) 和 (D) 錯誤。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:48:11",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同超導體中磁渦旋的軌道角動量與超導臨界溫度之關係",
+            "x_label": "超導臨界溫度 (K)",
+            "y_label": "磁渦旋軌道角動量 (ħ，約化普朗克常數)",
+            "data_x": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12
+            ],
+            "data_y": [
+                0.1,
+                0.3,
+                0.5,
+                0.7,
+                0.9,
+                1.1
+            ]
+        },
+        "question": "根據圖表所示，不同超導體在不同臨界溫度下的磁渦旋軌道角動量，請問以下敘述何者最合理？",
+        "options": [
+            "(A) 磁渦旋的軌道角動量與超導臨界溫度呈正相關。",
+            "(B) 磁渦旋的軌道角動量與超導臨界溫度呈負相關。",
+            "(C) 磁渦旋的軌道角動量與超導臨界溫度無明顯關聯。",
+            "(D) 磁渦旋的軌道角動量在超導臨界溫度達到一定值後會趨於穩定。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著超導臨界溫度增加，磁渦旋的軌道角動量也隨之增加。這表示兩者之間存在正相關關係。文章中提到磁渦旋的角動量特性受到物質特性（超導體種類）和環境（溫度）的影響，因此臨界溫度影響角動量是合理的。選項 (B) 與圖表趨勢相反，(C) 不符合圖表顯示的趨勢，(D) 圖表數據不足以判斷是否會趨於穩定。"
+    }
+}

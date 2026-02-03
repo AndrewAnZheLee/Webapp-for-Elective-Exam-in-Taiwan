@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Viscoelast",
+    "meta": {
+        "title": "Viscoelastic Metamaterials",
+        "summary": "Mechanical metamaterials are artificial composites with tunable advanced mechanical properties. Particularly interesting types of mechanical metamaterials are flexible metamaterials, which harness internal rotations and instabilities to exhibit programmable deformations. However, to date such materials have mostly been considered using nearly purely elastic constituents such as neo-Hookean rubbers. Here we explore experimentally the mechanical snap-through response of metamaterials that are made of constituents that exhibit large viscoelastic relaxation effects, encountered in the vast majority of rubbers, in particular in 3D printed rubbers. We show that they exhibit a very strong sensitivity to the loading rate. In particular, the mechanical instability is strongly affected beyond a certain loading rate. We rationalize our findings with a compliant mechanism model augmented with viscoelastic interactions, which captures qualitatively well the reported behavior, suggesting that the sensitivity to loading rate stems from the nonlinear and inhomogeneous deformation rate, provoked by internal rotations. Our findings bring a novel understanding of metamaterials in the dynamical regime and opens up avenues for the use of metamaterials for dynamical shape-changing as well as vibration and impact damping applications.",
+        "published": "2019-04-26",
+        "url": "http://arxiv.org/abs/1904.11888v1",
+        "source": "arXiv",
+        "mapping_chapter": "光學與波動 (Optics & Waves)",
+        "mapping_keyword": "metamaterials",
+        "subject": "physics"
+    },
+    "content": "# 黏彈性超材料 (Viscoelastic Metamaterials)\n\n## 1. 研究背景與課本關聯\n\n你有沒有玩過記憶棉枕頭？或是捏橡皮擦時，發現它不會立刻回到原本的形狀，而是需要一點時間？這些現象都跟物質的「黏彈性」有關。這篇研究探討的是一種特別的人工材料，叫做「超材料」，它不只是具有黏彈性，還能透過特殊的結構設計，展現出一些奇特的物理性質。雖然這篇論文主要探討的是材料的力學性質，但超材料的設計原理，其實也跟我們在高中物理「光學與波動」章節中學習的「光」的行為息息相關。光在不同介質中傳播時，會因為介質的性質而產生折射、反射等現象，而超材料的特殊結構，就像是人工設計的介質，可以控制光線的傳播方式，甚至實現一些傳統材料無法達成的光學效果。\n\n## 2. 核心發現\n\n這項研究的重點在於，探討當我們快速或緩慢施力於由黏彈性材料（像是我們常使用的橡膠，特別是 3D 列印出來的橡膠）組成的「超材料」時，它的變形行為會如何改變。\n\n首先，什麼是「超材料」呢？簡單來說，它是一種人工設計的複合材料，透過特殊的內部結構，可以獲得自然界中不存在的物理性質。這種超材料的結構設計，通常會包含一些可以旋轉或變形的元件，讓材料在受到外力作用時，可以產生可預期的變形。\n\n研究團隊發現，當對這種由黏彈性材料組成的超材料施力時，它的變形程度會受到「施力速度」的影響。如果施力速度很快，材料就比較不容易變形，甚至會出現「力學上的突跳現象」（snap-through response），也就是材料會突然從一個穩定的狀態，跳到另一個穩定的狀態。反過來說，如果施力速度很慢，材料就比較容易變形，而且變形過程會比較平滑。\n\n這個現象的關鍵，就在於黏彈性材料的特性。黏彈性材料的變形，不只是跟外力的大小有關，還跟外力作用的速度有關。當施力速度很快時，材料來不及調整內部的結構，就會產生較大的阻力，使得變形程度變小。\n\n為了解釋這個現象，研究團隊建立了一個「柔順機構模型」，並加入了黏彈性的效應。這個模型可以很好地模擬實驗結果，顯示施力速度對超材料變形影響的關鍵，在於材料內部不均勻的變形速率，以及由內部旋轉元件所引起的非線性效應。\n\n這項研究的發現，對於開發新型的動態變形材料，以及用於減震、吸收衝擊力的材料，具有重要的意義。例如，我們可以利用這種超材料，設計出可以根據環境變化而自動調整形狀的結構，或是用於製造更安全的運動器材。\n---\n```json\n{\n    \"question\": \"小明利用 3D 列印技術製作了一個由黏彈性橡膠組成的超材料結構，並進行實驗。他發現當快速敲擊這個結構時，結構會發出清脆的聲音，但緩慢施加壓力時，結構會產生較大的變形。請問這個現象最能體現黏彈性超材料的哪一項特性？\",\n    \"options\": [\n        \"(A) 對施力速度的敏感性\",\n        \"(B) 具有負折射率\",\n        \"(C) 能夠完美反射所有波長的光\",\n        \"(D) 具有超高的強度\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"根據論文摘要，研究的核心發現是黏彈性超材料的變形程度會受到施力速度的影響。快速敲擊產生清脆聲音，代表變形小；緩慢施加壓力產生較大變形，都體現了對施力速度的敏感性。選項 (B)、(C)、(D) 則與論文摘要的內容無關，且超材料的特性不限於這些。\"\n}\n```\n",
+    "processed_at": "2026-02-03 12:00:21",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "黏彈性超材料變形量與施力速度關係圖",
+            "x_label": "施力速度 (m/s)",
+            "y_label": "變形量 (mm)",
+            "data_x": [
+                0.1,
+                0.2,
+                0.5,
+                1.0,
+                2.0,
+                5.0
+            ],
+            "data_y": [
+                15.2,
+                12.8,
+                8.5,
+                5.1,
+                2.3,
+                0.8
+            ]
+        },
+        "question": "小華利用黏彈性超材料進行實驗，測量不同施力速度下的變形量。實驗結果如圖所示。根據圖表，下列敘述何者最合理？",
+        "options": [
+            "(A) 施力速度越快，變形量越大。",
+            "(B) 施力速度越慢，變形量越大。",
+            "(C) 變形量與施力速度成正比。",
+            "(D) 變形量與施力速度無關。"
+        ],
+        "correct_answer": "B",
+        "explanation": "圖表顯示，隨著施力速度的增加，變形量逐漸減小。這表示施力速度越慢，材料有足夠的時間調整內部結構，導致變形量越大。選項 (A) 與圖表結果相反；選項 (C) 錯誤，因為圖表呈現的是非線性關係；選項 (D) 錯誤，因為圖表明顯顯示變形量受到施力速度的影響。"
+    }
+}

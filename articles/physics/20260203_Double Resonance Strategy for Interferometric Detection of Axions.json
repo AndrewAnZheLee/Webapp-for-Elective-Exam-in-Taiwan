@@ -1,0 +1,50 @@
+{
+    "id": "20260203_Double Res",
+    "meta": {
+        "title": "Double Resonance Strategy for Interferometric Detection of Axions",
+        "summary": "We propose a double-resonant interferometric strategy for axion dark matter detection that combines microwave circuit resonance with Fabry--Pérot optical enhancement. In a strong magnetic field, axion--photon mixing induces a weak oscillating electric field, which is first amplified by a resonant circuit and then transduced into an optical phase shift via the electro-optic effect. Multiple coherent optical passes through the electro-optic medium accumulate this phase shift, enabling interferometric readout using mature optical techniques. We present the basic operating principle, discuss material requirements, and estimate the achievable sensitivity. For representative parameters, the projected reach extends into the parameter space of well-motivated QCD axion models.",
+        "published": "2025-12-22",
+        "url": "http://arxiv.org/abs/2512.19463v1",
+        "source": "arXiv",
+        "mapping_chapter": "電磁學 (Electromagnetism)",
+        "mapping_keyword": "circuit resonance",
+        "subject": "physics"
+    },
+    "content": "# 雙共振策略探測公轉子 (Axion)\n\n## 1. 研究背景與課本關聯\n\n你是否曾經好奇，宇宙中除了我們看得見的物質，還有什麼隱藏的成分？就像冰山一角，我們所知的物質只佔宇宙的一小部分，其餘的大部分被稱為「暗物質」。科學家們一直在努力尋找暗物質的證據。這項研究試圖探測一種名為「公轉子」(Axion) 的粒子，它被認為是暗物質的候選者之一。這與高中物理課本的「電磁學」章節息息相關，因為公轉子的探測仰賴於電磁波與物質的交互作用，例如電磁感應、電光效應等。\n\n## 2. 核心發現\n\n這項研究提出一種新穎的探測公轉子的方法，稱為「雙共振干涉策略」。簡單來說，公轉子是一種假設存在的粒子，當它處於強磁場中時，會與光子（也就是電磁波）發生微弱的相互作用，產生一個非常微小的、週期性變化的電場。\n\n這個微小的電場非常難以直接偵測，因此研究團隊利用了兩個「共振」的特性來放大訊號。首先，他們使用一個「微波電路共振器」，就像一個精準調諧的收音機，只對特定頻率的微波產生強烈的響應，將公轉子產生的微弱電場放大。\n\n接著，他們利用「電光效應」，將放大的電場轉換成光波的相位變化。電光效應指的是某些材料的折射率會隨著電場強度的變化而改變，進而影響光波的傳播。為了更進一步放大相位變化，研究團隊使用了一個「法布里-佩羅光學共振腔」，讓光波在腔體內來回多次反射，累積相位變化。這就像在一個長長的隧道中不斷反射聲音，讓聲音越來越大一樣。\n\n最後，透過精密的「干涉儀」技術，偵測這些累積的相位變化，藉此推斷公轉子的存在。干涉儀利用光波的干涉現象，可以非常靈敏地偵測到微小的相位變化。\n\n研究團隊估計，使用這種雙共振策略，他們有望探測到符合理論預測的公轉子，並深入了解暗物質的性質。這項研究結合了電磁學、光學和量子力學的知識，為暗物質的搜尋提供了新的方向。\n---\n```json\n{\n    \"question\": \"某研究團隊利用雙共振策略探測公轉子，其中微波電路共振器的作用類似於下列哪一種電路元件？假設公轉子產生的電場變化極小，需要一個元件來放大訊號。\",\n    \"options\": [\n        \"(A) 電阻：消耗電能，降低訊號強度。\",\n        \"(B) 電容：儲存電荷，無法放大訊號。\",\n        \"(C) 電感：儲存磁能，在特定頻率下產生共振，放大訊號。\",\n        \"(D) 二極體：單向導通電流，無法放大訊號。\"\n    ],\n    \"correct_answer\": \"C\",\n    \"explanation\": \"微波電路共振器利用電感的特性，在特定頻率下產生共振，就像一個精準調諧的電路，能夠放大特定頻率的訊號。公轉子產生的電場變化極小，需要一個能夠放大訊號的元件，因此電感是最佳答案。電阻會消耗電能，電容儲存電荷但無法放大訊號，二極體則只允許電流單向流動，也無法放大訊號。\"\n}\n```",
+    "processed_at": "2026-02-03 11:49:12",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同頻率下公轉子信號強度變化",
+            "x_label": "微波頻率 (GHz)",
+            "y_label": "信號強度 (dB)",
+            "data_x": [
+                2.0,
+                2.2,
+                2.4,
+                2.6,
+                2.8,
+                3.0,
+                3.2
+            ],
+            "data_y": [
+                -120,
+                -118,
+                -115,
+                -112,
+                -110,
+                -108,
+                -105
+            ]
+        },
+        "question": "研究團隊使用雙共振策略探測公轉子，並記錄了不同微波頻率下的信號強度。根據圖表所示，信號強度隨微波頻率的變化趨勢為何？",
+        "options": [
+            "(A) 信號強度隨微波頻率增加而增加，表示在特定頻率下共振效應更強。",
+            "(B) 信號強度隨微波頻率增加而減少，表示公轉子在低頻率下更容易被探測。",
+            "(C) 信號強度變化不大，表示公轉子的存在與微波頻率無關。",
+            "(D) 信號強度呈現週期性變化，表示公轉子在不同頻率下會間歇性地產生信號。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著微波頻率的增加，信號強度也逐漸增加。這表示在更高的微波頻率下，微波電路共振器的共振效應更強，能夠更有效地放大公轉子產生的微弱電場信號。因此，信號強度增加表明在特定頻率下共振效應更強，更有利於探測公轉子。"
+    }
+}

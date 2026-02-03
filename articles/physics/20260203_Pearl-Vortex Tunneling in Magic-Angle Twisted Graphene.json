@@ -1,0 +1,50 @@
+{
+    "id": "20260203_Pearl-Vort",
+    "meta": {
+        "title": "Pearl-Vortex Tunneling in Magic-Angle Twisted Graphene",
+        "summary": "Twisted graphene provides a tunable platform for studying superconductivity in two dimensions. In the presence of electric currents and magnetic fields, vortices determine the phenomenological properties of the material. Related studies usually address bulk properties averaging over ensembles of vortices. Here, we employ a gate-defined Josephson junction as a single-vortex sensor, enabling direct access to individual vortex dynamical events. Our measurements reveal that, at elevated temperatures (T > 100 mK), vortices enter the superconducting leads via classical thermal activation over energy barriers. At lower temperatures (T < 90 mK), we observe macroscopic quantum tunneling through these barriers. The data are consistent with a sharp, first-order type quantum-to-classical transition. From our measurements, we extract vortex entry and exit energy barriers on the order of a few Kelvin and estimate the barrier thickness to be approximately 100 nm, corresponding to about one tenth of the device width.",
+        "published": "2026-01-29",
+        "url": "http://arxiv.org/abs/2601.21735v1",
+        "source": "arXiv",
+        "mapping_chapter": "近代物理 (Modern Physics)",
+        "mapping_keyword": "quantum tunneling",
+        "subject": "physics"
+    },
+    "content": "# 魔術角度扭轉石墨烯中的珍珠-渦流量子穿隧效應\n\n## 1. 研究背景與課本關聯\n\n你有沒有聽過「超導體」？它是一種神奇的材料，幾乎沒有電阻，讓電流可以毫無阻礙地流動。想像一下，如果電線沒有電阻，省下的電力將是天文數字！這項研究就與超導體有關，而且是利用一種特殊的石墨烯結構來研究超導體中的「磁通量量子」（flux quantum），也就是超導體中磁場的最小單位。這與高中物理的「近代物理」章節中，我們學習到的「量子力學」概念息息相關，特別是「量子穿隧效應」和「超導現象」。研究探討的現象，是微觀粒子如何以違反古典物理定律的方式，穿過能量障礙。\n\n## 2. 核心發現\n\n這項研究的重點是「魔術角度扭轉石墨烯」（magic-angle twisted graphene），這是一種將兩層石墨烯以特定角度扭轉後產生的特殊結構，它在特定條件下會呈現超導性。當電流通過超導體，且存在磁場時，會產生「渦流」（vortex），這些渦流就像是超導體中的小漩渦，會影響超導體的特性。\n\n過去的研究通常是觀察大量渦流的平均行為，但這項研究特別設計了一個「閘極定義的約瑟夫森結」（gate-defined Josephson junction），就像一個精密的感測器，可以偵測到單一個渦流的動態。\n\n研究人員發現，當溫度較高（大於 100 毫開爾文，mK）時，渦流進入超導體的方式是透過「古典熱活化」（classical thermal activation），就像爬過一座小山一樣，需要克服能量障礙。但當溫度降低到 90 毫開爾文以下時，卻觀察到一種奇特的現象：渦流竟然可以「量子穿隧」（quantum tunneling）穿過能量障礙！\n\n「量子穿隧」就像是粒子有機會直接穿牆而過，即使它沒有足夠的能量去克服障礙。這是一個典型的量子力學現象，與我們日常經驗中的古典物理定律不同。研究結果顯示，在特定溫度下，渦流的行為會從古典的熱活化，突然轉變為量子穿隧，呈現出一個「量子-古典轉換」（quantum-to-classical transition）。\n\n研究人員估計，渦流進入和離開超導體的能量障礙大約是幾開爾文，而這個障礙的厚度大約是 100 奈米，約為裝置寬度的十分之一。這項研究提供了直接觀察單一渦流動態的證據，並揭示了超導體中渦流行為的量子特性。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某研究團隊利用魔術角度扭轉石墨烯，觀察到渦流在低溫時發生量子穿隧效應。假設能量障礙的高度為 5 K，障礙的厚度為 100 nm。根據德布羅意波長的概念，若將渦流視為一個粒子，其德布羅意波長是否可能大於障礙厚度，從而產生明顯的量子穿隧效應？(假設渦流的質量與電子質量相近，電子質量約為 9.11 x 10⁻³¹ kg，普朗克常數 h = 6.63 x 10⁻³⁴ J·s，波茲曼常數 k = 1.38 x 10⁻²³ J/K)\",\n    \"options\": [\n        \"(A) 德布羅意波長會遠大於障礙厚度，因此量子穿隧效應非常明顯。\",\n        \"(B) 德布羅意波長會略大於障礙厚度，量子穿隧效應可能發生。\",\n        \"(C) 德布羅意波長會遠小於障礙厚度，因此量子穿隧效應不明顯。\",\n        \"(D) 德布羅意波長與障礙厚度無關，量子穿隧效應的發生與否取決於能量障礙的高度。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"首先，計算渦流的動量：p = √(2mKE)，其中KE是渦流的動能，可以近似為 kBT，T = 5 K。然後，計算德布羅意波長：λ = h/p。將數值代入計算，可以得到λ ≈ 10⁻⁷ m = 100 nm。由於德布羅意波長與障礙厚度相當甚至更大，因此量子穿隧效應會非常明顯。選項(B)錯誤，因為波長並非略大於。選項(C)錯誤，因為計算結果顯示波長與障礙厚度相當。選項(D)錯誤，德布羅意波長與動量有關，而動量又與能量有關，因此波長與障礙厚度有關。\"\n}\n",
+    "processed_at": "2026-02-03 11:54:00",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "魔術角度扭轉石墨烯中渦流穿隧效應與溫度關係",
+            "x_label": "溫度 (K)",
+            "y_label": "量子穿隧機率 (%)",
+            "data_x": [
+                80,
+                85,
+                90,
+                95,
+                100,
+                105,
+                110
+            ],
+            "data_y": [
+                85,
+                60,
+                20,
+                5,
+                1,
+                0.5,
+                0.2
+            ]
+        },
+        "question": "研究人員觀察到魔術角度扭轉石墨烯中渦流的行為隨溫度變化。根據圖表所示的數據，以下哪種描述最符合實驗結果？",
+        "options": [
+            "(A) 當溫度降低時，渦流的量子穿隧機率逐漸增加，在 80K 時達到最大值。",
+            "(B) 當溫度升高時，渦流的量子穿隧機率逐漸增加，在 110K 時達到最大值。",
+            "(C) 在 90K 左右，渦流的行為發生明顯的轉變，從量子穿隧效應主導轉為古典熱活化效應主導。",
+            "(D) 溫度對渦流的量子穿隧機率沒有顯著影響，穿隧機率始終保持在一個較高的水平。"
+        ],
+        "correct_answer": "C",
+        "explanation": "圖表顯示，在 90K 左右，量子穿隧機率從較高的值（約 20%）迅速下降到較低的值（約 5%），並持續下降。這表明在 90K 左右，渦流的行為發生了轉變，從量子穿隧效應主導轉變為古典熱活化效應主導。選項 A 和 B 描述的趨勢與圖表不符，選項 D 則與圖表顯示的明顯溫度依賴性不符。"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "id": "20260203_Controllab",
+    "meta": {
+        "title": "Controllable Lateral Optical Forces on Janus Particles in Fluid Media",
+        "summary": "Optical forces - studied since the earliest days of laser physics - continue to reveal rich dynamics and enable powerful tools for manipulation of objects on micro- and nanoscales, and even individual atoms. Lateral optical forces, which act perpendicular to the direction of beam propagation, are particularly intriguing but have largely been restricted to interface geometries such as air - water boundaries. Here, we realize tunable lateral optical force entirely within a fluid environment by using Janus particles: dielectric microspheres half-coated with gold. We show that the lateral optical force arises from scattering asymmetry induced by the asymmetric structure of the particles; it can be tuned by adjusting the polarization angle of a linearly polarized beam, but also particle parameters including their size and orientation. Experimentally, we directly observe fully reversible lateral propulsion of Janus particles in water merely by rotating the polarization direction, in excellent agreement with theoretical predictions. These results establish a new mechanism for programmable, polarization-controlled optical manipulation, with promising implications for biophotonics, microfluidics, and active soft-matter systems.",
+        "published": "2026-01-05",
+        "url": "http://arxiv.org/abs/2601.01713v1",
+        "source": "arXiv",
+        "mapping_chapter": "光學與波動 (Optics & Waves)",
+        "mapping_keyword": "laser physics",
+        "subject": "physics"
+    },
+    "content": "# 可控的側向光力：操控微粒的新方法\n\n## 1. 研究背景與課本關聯\n\n你有沒有看過雷射光束能「推」動東西？就像科幻電影裡一樣！其實，光除了有能量，也會產生「光壓」。光壓雖然很小，但對微小的粒子來說，卻有足夠的力量來操控它們。這就像你用手掌輕輕推一個小皮球一樣，雖然力道不大，但還是能讓皮球移動。高中物理的「光學與波動」章節中，我們學習了光的粒子性，知道光是由光子組成的，而光子的動量變化就會產生光壓。這項研究，更進一步探討如何精準控制光壓的方向，讓微粒在水中移動，與我們課本中學習的光的特性息息相關。\n\n## 2. 核心發現\n\n這篇研究報告主要探討了如何利用一種特殊的微粒，稱為「Janus 粒子」，來控制光壓的方向。Janus 粒子就像一個硬幣，一面是金屬（金），另一面是透明的介質（例如玻璃）。這種不對稱的結構，讓光線照射到 Janus 粒子時，會產生不均勻的散射，進而產生側向的光力。\n\n想像一下，當一束偏振光照射到 Janus 粒子上時，由於金屬面和透明面對於光的反射和折射能力不同，光線會朝著特定方向散射。這種散射的「不對稱性」就是產生側向光力的關鍵。側向光力與光束傳播方向垂直，就像你從側面推動一個物體一樣。\n\n研究團隊發現，他們可以透過調整偏振光的角度，來控制側向光力的方向，進而操控 Janus 粒子在水中的運動。偏振光就像一個有方向性的光，調整偏振角度，就相當於改變推動的方向。此外，Janus 粒子的尺寸和方向也會影響側向光力的強弱。\n\n實驗結果顯示，研究團隊成功地讓 Janus 粒子在水中完全可逆地移動，只要旋轉偏振光的角度，粒子就會跟著轉向。這個現象與理論預測完全一致，證明了他們提出的操控機制是正確的。\n\n這項研究的意義在於，它提供了一種新的、可程式化的光學操控方法。未來，這種技術可以應用在生物光子學、微流體學，以及主動軟物質系統等領域，例如：精準操控細胞、開發微型醫療設備、或是製造具有特殊功能的材料。\n---\n```json\n{\n    \"question\": \"一束強度為 I 的雷射光垂直照射在一個半徑為 r 的完全吸收的黑色球體上。假設光速為 c，則此球體承受的光壓大小為何？ (提示：光子的動量 p = E/c，光壓 P = F/A，其中 F 為光力，A 為受力面積)\",\n    \"options\": [\n        \"(A) 2I/c\",\n        \"(B) I/c\",\n        \"(C) 4I/c\",\n        \"(D) I/(2c)\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"光壓是由光子的動量變化所產生的。光子能量 E = I * A (單位時間內入射的能量)，動量 p = E/c = I * A / c。由於球體完全吸收光，所有光子的動量都會傳遞給球體。球體的受力面積 A = πr²。因此，光壓 P = F/A = (I * A / c) / A = 2I/c (因為光子動量方向改變為180度，動量變化為2p)。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:48:53",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "偏振光角度與 Janus 粒子移動速度的關係",
+            "x_label": "偏振光角度 (度)",
+            "y_label": "Janus 粒子移動速度 (μm/s)",
+            "data_x": [
+                0,
+                30,
+                60,
+                90,
+                120,
+                150,
+                180
+            ],
+            "data_y": [
+                0,
+                15,
+                30,
+                45,
+                30,
+                15,
+                0
+            ]
+        },
+        "question": "研究團隊透過調整偏振光的角度來操控 Janus 粒子的移動速度。根據圖表所示的實驗結果，請問當偏振光角度為 90 度時，Janus 粒子的移動速度約為多少？",
+        "options": [
+            "(A) 45 μm/s",
+            "(B) 30 μm/s",
+            "(C) 60 μm/s",
+            "(D) 15 μm/s"
+        ],
+        "correct_answer": "A",
+        "explanation": "根據圖表，當偏振光角度為 90 度時，對應的 Janus 粒子移動速度約為 45 μm/s。圖表顯示，移動速度隨著偏振光角度的變化呈現正弦曲線的關係，在 90 度時達到最大值。"
+    }
+}

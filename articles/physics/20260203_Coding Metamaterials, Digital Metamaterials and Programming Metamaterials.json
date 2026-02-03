@@ -1,0 +1,50 @@
+{
+    "id": "20260203_Coding Met",
+    "meta": {
+        "title": "Coding Metamaterials, Digital Metamaterials and Programming Metamaterials",
+        "summary": "As artificial structures, metamaterials are usually described by macroscopic effective medium parameters, which are named as \"analog metamaterials\". Here, we propose \"digital metamaterials\" in two steps. Firstly, we present \"coding metamaterials\" that are composed of only two kinds of unit cells with 0 and π phase responses, which we name as \"0\" and \"1\" elements. By coding \"0\" and \"1\" elements with controlled sequences (i.e., 1-bit coding), we can manipulate electromagnetic (EM) waves and realize different functionalities. The concept of coding metamaterial can be extended from 1-bit coding to 2-bit or more. In 2-bit coding, four kinds of unit cells with phase responses 0, π/2, π, and 3π/2 are required to mimic \"00\", \"01\", \"10\" and \"11\" elements, which have larger freedom to control EM waves. Secondly, we propose a unique metamaterial particle which has either \"0\" or \"1\" response controlled by a biased diode. Based on the particle, we present \"digital metamaterials\" with unit cells having either \"0\" or \"1\" state. Using the field-programmable gate array, we realize to control the digital metamaterial digitally. By programming different coding sequences, a single digital metamaterial has distinct abilities in manipulating EM waves, realizing the \"programming metamaterials\". The above concepts and physical phenomena are confirmed by numerical simulations and experiments through metasurfaces.",
+        "published": "2014-07-30",
+        "url": "http://arxiv.org/abs/1407.8442v1",
+        "source": "arXiv",
+        "mapping_chapter": "光學與波動 (Optics & Waves)",
+        "mapping_keyword": "metamaterials",
+        "subject": "physics"
+    },
+    "content": "# 編碼超材料、數位超材料與可程式化超材料\n\n## 1. 研究背景與課本關聯\n\n你有沒有想過，如果我們能像控制電腦程式一樣，精準地控制光線的傳播，那會有多酷？就像調整音響的均衡器，讓聲音更清晰一樣，我們可以設計出能「彎曲」光線、讓光線「聚焦」的特殊材料。這與高中物理課本中「光學與波動」的內容息息相關，例如光的折射、繞射、干涉等現象，都是我們理解如何操控光線的基礎。而這篇研究，就是探討如何利用人工設計的微結構，更精準、更靈活地控制光線，甚至讓材料具有「可變」的光學性質。\n\n## 2. 核心發現\n\n這篇論文主要介紹了三種新型的超材料概念：編碼超材料、數位超材料和可程式化超材料。\n\n首先，傳統的超材料就像是「類比」的材料，我們透過調整材料的整體性質來影響光線。但這篇論文提出了「編碼超材料」的概念，就像用 0 和 1 的二進位碼來組成資訊一樣，他們只使用兩種基本單元：一種讓光線相位改變 0 度（代表沒有改變），另一種讓光線相位改變 180 度（π 弧度）。透過控制這些 0 和 1 單元的排列順序，就像編寫程式碼一樣，就能控制光線的傳播，實現不同的功能。更進一步地，可以擴展到使用四種單元，分別對應 0、90（π/2）、180（π）和 270（3π/2）度的相位改變，提供更大的控制自由度。\n\n接著，研究者設計了一種特殊的超材料粒子，這個粒子可以藉由控制偏壓二極體，切換成「0」或「1」的狀態。利用這些可切換的粒子，就能構成「數位超材料」，其單元可以呈現「0」或「1」的狀態。更厲害的是，他們利用「場可程式化閘陣列」（FPGA）來數位控制這些超材料，就像控制電腦一樣。\n\n最後，透過編寫不同的程式碼序列，同一個數位超材料可以展現出不同的光學特性，實現「可程式化超材料」。這代表我們可以根據需要，隨時改變材料的光學功能，例如從透鏡變成反射鏡，或者從光線分束器變成光線聚焦器。\n\n研究者透過數值模擬和實驗，證實了這些概念的可行性，並在「超表面」（metasurface）上成功實現了這些功能。這項研究為我們設計更靈活、更智慧的光學元件開闢了新的可能性，未來可能應用在光通訊、感測器、成像等領域。\n---\n```json\n{\n    \"question\": \"小明利用編碼超材料設計一個裝置，希望能夠將入射光線彎曲 30 度。已知該裝置使用的基本單元只有兩種：一種不改變光線相位（0 度），另一種改變光線相位 180 度（π 弧度）。請問小明需要如何排列這些基本單元才能達到目標？（假設光線在介質中的波長為 λ，且裝置的週期遠小於波長）\",\n    \"options\": [\n        \"(A) 將所有基本單元排列成直線，因為光線會直接穿過。\",\n        \"(B) 將 0 度和 180 度的基本單元交錯排列，形成週期性結構。\",\n        \"(C) 透過精確控制 0 度和 180 度基本單元的比例和排列方式，產生所需的相位梯度。\",\n        \"(D) 只需要使用 180 度的基本單元，將光線完全反射。\"\n    ],\n    \"correct_answer\": \"C\",\n    \"explanation\": \"要彎曲光線，需要產生一個相位梯度，也就是讓光線在不同位置的相位不同。編碼超材料利用 0 度和 180 度的基本單元，透過控制它們的排列方式，可以產生所需的相位梯度，進而彎曲光線。選項 A 錯誤，因為直線排列無法彎曲光線。選項 B 錯誤，因為交錯排列可能產生繞射，但無法精確控制彎曲角度。選項 D 錯誤，因為完全反射會將光線反射出去，而不是彎曲。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:48:33",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同編碼超材料相位梯度與光線彎曲角度關係",
+            "x_label": "相位梯度 (弧度/微米)",
+            "y_label": "光線彎曲角度 (度)",
+            "data_x": [
+                0.0,
+                0.5,
+                1.0,
+                1.5,
+                2.0,
+                2.5,
+                3.0
+            ],
+            "data_y": [
+                0.0,
+                17.7,
+                35.3,
+                53.0,
+                70.6,
+                88.3,
+                105.9
+            ]
+        },
+        "question": "研究團隊利用編碼超材料進行實驗，探討相位梯度與光線彎曲角度之間的關係。他們改變超材料的相位梯度，並測量了光線彎曲的角度。實驗結果如圖所示，請問當相位梯度為 2.0 弧度/微米時，光線彎曲的角度約為多少度？",
+        "options": [
+            "(A) 70.6 度",
+            "(B) 88.3 度",
+            "(C) 53.0 度",
+            "(D) 35.3 度"
+        ],
+        "correct_answer": "A",
+        "explanation": "根據圖表，當相位梯度為 2.0 弧度/微米時，對應的光線彎曲角度約為 70.6 度。此數據反映了相位梯度與光線彎曲角度之間近似線性的關係，符合超材料操控光線的原理。相位梯度越大，光線彎曲的角度也越大。"
+    }
+}

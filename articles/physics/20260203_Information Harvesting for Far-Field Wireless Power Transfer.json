@@ -1,0 +1,50 @@
+{
+    "id": "20260203_Informatio",
+    "meta": {
+        "title": "Information Harvesting for Far-Field Wireless Power Transfer",
+        "summary": "Considering ubiquitous connectivity and advanced information processing capability, huge amount of low-power IoT devices are deployed nowadays and the maintenance of those devices which includes firmware/software updates and recharging the units has become a bottleneck for IoT systems. For addressing limited battery constraints, wireless power transfer is a promising approach such that it does not require any physical link between energy harvester and power transfer. Furthermore, combining wireless power transfer with information transmission has become more appealing. In the systems that apply radio signals the wireless power transfer has become a popular trend to harvest RF-radiated energy from received information signal in IoT devices. For those systems, design frameworks mainly deal with the trade-off between information capacity and energy harvesting efficiency. Therein various signaling design frameworks have been proposed for different system preferences between power and information. In addition to this, protecting the information part from potential eavesdropping activity in a service area introduces security considerations for those systems. In this paper, we propose a novel concept, Information Harvesting, for wireless power transfer systems. It introduces a novel protocol design from opposite perspective compared to the existing studies. Particularly, Information Harvesting aims to transmit information through existing wireless power transfer mechanism without interfering/interrupting power transfer.",
+        "published": "2021-05-26",
+        "url": "http://arxiv.org/abs/2105.12838v1",
+        "source": "arXiv",
+        "mapping_chapter": "電磁學 (Electromagnetism)",
+        "mapping_keyword": "wireless power transfer",
+        "subject": "physics"
+    },
+    "content": "# 遠距無線電力傳輸中的資訊採集 (Information Harvesting)\n\n## 1. 研究背景與課本關聯\n\n你是否曾經覺得，家中的無線充電設備雖然方便，但總是需要把手機或耳機放在特定的位置才能充電？現在，越來越多的物聯網 (IoT) 裝置，像是智慧居家中的感測器、穿戴式裝置等，體積小、耗電量低，但數量卻非常龐大。這些裝置的電池更換或充電，變成了一個很大的問題。這篇研究就探討如何利用無線電波來為這些裝置供電，而且還能同時傳輸資訊！這與高中物理課本的「電磁學 (Electromagnetism)」章節息息相關，因為無線電力傳輸的原理正是基於電磁波的特性，例如電磁波的能量、頻率、波長等。\n\n## 2. 核心發現\n\n這篇研究提出一個新的概念，叫做「資訊採集 (Information Harvesting)」。傳統的無線電力傳輸系統，通常會先考慮如何有效地傳輸電力，然後再想辦法傳輸資訊，兩者之間常常存在權衡。例如，為了傳輸更多資訊，可能需要犧牲一些電力傳輸效率；反之，為了提高電力傳輸效率，可能需要降低資訊傳輸速率。\n\n而「資訊採集」則換個角度思考：**利用已經存在的無線電力傳輸機制，來傳輸資訊，而且不干擾電力傳輸本身！** 想像一下，原本的無線充電器持續不斷地發送電磁波來為裝置充電，研究團隊想辦法將這些電磁波中隱藏一些資訊，讓接收端在接收電力的同時，也能解讀出這些資訊。\n\n這就像是我們在雜訊中尋找訊號一樣。無線電力傳輸發出的電磁波，可以視為一種載波 (carrier wave)。研究團隊設計了一種特殊的通訊協定 (protocol)，將資訊編碼到載波的某些特性上，例如相位或振幅的微小變化。接收端透過解調 (demodulation) 技術，從接收到的電磁波中提取出這些資訊。\n\n這種方法的優點是，它不需要額外的硬體設備來傳輸資訊，也不會影響無線充電的效率。然而，這也帶來了一些挑戰，例如如何確保資訊的安全性，避免被竊聽；以及如何提高資訊傳輸的可靠性，確保資訊能夠正確地傳輸。研究團隊也提到，在設計通訊協定時，需要考慮電力與資訊之間的最佳平衡點，才能達到最佳的系統效能。這與高中物理中討論的「調變 (modulation)」概念非常相似，只是應用場景不同。傳統調變是為了傳輸訊號，而這裡的調變是為了在不影響電力傳輸的前提下，傳輸資訊。\n\n---\n```json\n{\n    \"question\": \"某物聯網裝置使用「資訊採集」技術接收無線電力，同時也接收到傳輸的資訊。若無線電力傳輸的頻率為 2.4 GHz，且接收端解讀到資訊時，發現載波的相位發生了微小變化。請問，這種相位變化最直接地與下列哪一個物理量相關？\",\n    \"options\": [\n        \"(A) 電磁波的波長\",\n        \"(B) 電磁波的振幅\",\n        \"(C) 電磁波的頻率\",\n        \"(D) 電磁波的能量\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"相位變化代表電磁波的波形在時間上的偏移。電磁波的相位與波長密切相關，相位變化會導致波長的微小改變。振幅代表電磁波的強度，頻率代表電磁波的振動次數，能量則與振幅和頻率都有關。因此，相位變化最直接地與波長相關。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:50:47",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "無線電力傳輸效率與資訊傳輸速率之關係",
+            "x_label": "資訊傳輸速率 (kbps)",
+            "y_label": "無線電力傳輸效率 (%)",
+            "data_x": [
+                10,
+                20,
+                30,
+                40,
+                50,
+                60,
+                70
+            ],
+            "data_y": [
+                95,
+                92,
+                88,
+                83,
+                78,
+                72,
+                65
+            ]
+        },
+        "question": "研究團隊在測試「資訊採集」技術時，發現無線電力傳輸效率會隨著資訊傳輸速率的增加而降低。根據圖表所示的實驗結果，下列敘述何者最合理？",
+        "options": [
+            "(A) 資訊傳輸速率越高，無線電力傳輸效率越高，因為系統更穩定。",
+            "(B) 資訊傳輸速率與無線電力傳輸效率之間呈現正相關，但達到一定速率後會趨於穩定。",
+            "(C) 資訊傳輸速率越高，無線電力傳輸效率越低，顯示兩者之間存在權衡。",
+            "(D) 無線電力傳輸效率不受資訊傳輸速率的影響，兩者可以同時達到最佳狀態。"
+        ],
+        "correct_answer": "C",
+        "explanation": "圖表顯示，隨著資訊傳輸速率的增加，無線電力傳輸效率呈現下降趨勢。這表示為了傳輸更多資訊，需要犧牲一些電力傳輸效率，兩者之間存在權衡。選項A錯誤，因為圖表顯示效率降低；選項B錯誤，因為圖表顯示的是負相關，而非正相關且趨於穩定；選項D錯誤，因為圖表明確顯示效率受到速率影響。"
+    }
+}

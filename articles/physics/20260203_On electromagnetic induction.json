@@ -1,0 +1,46 @@
+{
+    "id": "20260203_On electro",
+    "meta": {
+        "title": "On electromagnetic induction",
+        "summary": "A general law for electromagnetic induction phenomena is derived from Lorentz force and Maxwell equation connecting electric field and time variation of magnetic field. The derivation provides with a unified mathematical treatment the statement according to which electromagnetic induction is the product of two independent phenomena: time variation of magnetic field and effects of magnetic field on moving charges. The general law deals easily-without ad hoc assumptions-with typical cases usually considered as exceptions to the flux rule and contains the flux rule as a particular case.",
+        "published": "2000-08-03",
+        "url": "http://arxiv.org/abs/physics/0008006v1",
+        "source": "arXiv",
+        "mapping_chapter": "電磁學 (Electromagnetism)",
+        "mapping_keyword": "electromagnetic induction",
+        "subject": "physics"
+    },
+    "content": "# 電磁感應：更深入的理解\n\n## 1. 研究背景與課本關聯\n\n你是否曾經好奇，為什麼晃動磁鐵就能產生電流？或者，為什麼發電機能將機械能轉換成電能？這些現象都與「電磁感應」有關。在高中物理的「電磁學」章節中，我們學習了法拉第電磁感應定律，了解磁通量變化會產生感應電動勢。但課本上的解釋有時會讓人覺得有些跳躍，或者遇到特殊情況時，定律的適用性會讓人困惑。這篇研究試圖從更根本的物理原理出發，更完整地解釋電磁感應現象，並解決一些傳統定律的限制。\n\n## 2. 核心發現\n\n這篇研究的核心是，它試圖用更基礎的物理概念，重新推導出電磁感應的普遍定律。研究者從「羅倫茲力」和「馬克士威方程」這兩個重要的物理基礎出發，證明了電磁感應其實是兩個獨立現象的結合：一是「磁場隨時間變化」，二是「磁場對移動電荷的作用」。\n\n讓我們更仔細地理解這個概念。首先，羅倫茲力告訴我們，一個移動的電荷，在磁場中會受到力的作用。這個力的大小和方向，取決於電荷的速度、磁場的強度，以及速度和磁場之間的夾角。其次，馬克士威方程描述了電場和磁場之間的關係，其中一個重要的結論是：變化的磁場會產生電場。\n\n這篇研究將這兩點結合起來，說明當磁場隨時間變化時，磁場中的電荷會受到一個「感應電動力」，也就是我們所說的感應電動勢。這個感應電動力會驅動電荷移動，形成感應電流。\n\n更重要的是，這個新的推導方式，可以更自然地處理一些傳統法拉第定律中被視為「例外」的情況。例如，當導體並非簡單地切割磁力線時，傳統定律的應用可能會遇到困難。但這個新的普遍定律，不需要額外的假設，就能夠正確地描述這些情況。換句話說，它提供了一個更統一、更完整的電磁感應理論，法拉第定律只是這個普遍定律的一個特例。\n\n總結來說，這項研究讓我們更深入地理解電磁感應的本質，它不僅僅是磁通量變化，更是磁場變化和移動電荷相互作用的結果。這有助於我們更靈活地應用電磁感應原理，解決更複雜的物理問題。\n\n---\n```json\n{\n    \"question\": \"一個長方形金屬線圈，面積為 A，置於均勻磁場中，磁場方向垂直於線圈平面。磁場強度 B 隨時間 t 變化，B = kt，其中 k 為常數。若線圈的電阻為 R，則在時間 t = 0 到 t = T 之間，線圈中產生的總熱量 Q 為多少？\",\n    \"options\": [\n        \"(A) k²A²T³/R\",\n        \"(B) k²A²T³/2R\",\n        \"(C) kA²T²/R\",\n        \"(D) kA²T²/2R\"\n    ],\n    \"correct_answer\": \"B\",\n    \"explanation\": \"首先，根據法拉第電磁感應定律，感應電動勢 E = -dΦ/dt，其中 Φ = BA 為磁通量。因此，E = -k A。感應電流 I = E/R = -kA/R。由於電流方向與時間變化有關，我們需要計算在時間 T 內產生的總熱量。熱量 Q = I²Rt = ∫(0 to T) (-kA/R)²R dt = ∫(0 to T) k²A²/R dt = k²A²/R * T³/3。但由於電流方向會改變，實際產生的熱量是正的，所以需要取絕對值，並考慮到電流是負的，平方後正負號消失。因此，Q = k²A²T³/2R。注意，這裡的感應電流方向會抵銷磁場變化，產生熱能。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:52:24",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同磁場變化速率下的感應電動勢",
+            "x_label": "磁場變化速率 k (T/s)",
+            "y_label": "感應電動勢 E (V)",
+            "data_x": [
+                0.1,
+                0.2,
+                0.3,
+                0.4,
+                0.5
+            ],
+            "data_y": [
+                0.5,
+                1.0,
+                1.5,
+                2.0,
+                2.5
+            ]
+        },
+        "question": "研究人員利用一線圈進行電磁感應實驗，並記錄了不同磁場變化速率 k 下的感應電動勢 E。已知線圈面積 A = 0.1 m²，且磁場變化為 B = kt。根據實驗數據，下列哪一個結論最合理？",
+        "options": [
+            "(A) 感應電動勢 E 與磁場變化速率 k 成正比。",
+            "(B) 感應電動勢 E 與磁場變化速率 k 的平方成正比。",
+            "(C) 感應電動勢 E 與磁場變化速率 k 成反比。",
+            "(D) 感應電動勢 E 與磁場變化速率 k 無關。"
+        ],
+        "correct_answer": "A",
+        "explanation": "根據法拉第電磁感應定律，感應電動勢 E = -dΦ/dt = -d(BA)/dt。由於 A 為常數，E = -B(dA/dt) - A(dB/dt)。在本實驗中，磁場變化為 B = kt，因此 dB/dt = k。所以 E = -Ak。從圖表中可以看出，感應電動勢 E 隨著磁場變化速率 k 的增加而線性增加，驗證了感應電動勢 E 與磁場變化速率 k 成正比的結論。負號表示感應電動勢的方向與磁場變化方向相反，符合楞次定律。"
+    }
+}

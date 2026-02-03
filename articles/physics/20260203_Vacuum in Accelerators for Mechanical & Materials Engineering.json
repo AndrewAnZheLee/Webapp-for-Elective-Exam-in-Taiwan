@@ -1,0 +1,46 @@
+{
+    "id": "20260203_Vacuum in ",
+    "meta": {
+        "title": "Vacuum in Accelerators for Mechanical & Materials Engineering",
+        "summary": "Vacuum systems are an intrinsic part of any accelerator around the world: all particles circulate under vacuum. This lecture gives rudiments on the fundamentals of vacuum science such as units, ideal gas law, partial pressure, mean free path, flow of molecules, conductance, pumping speed, and outgassing. An overview of standard vacuum instruments for pressure measurement and pumping is presented. Finally, the specificities of accelerator vacuum systems are introduced, discussing some design, construction, installation, and commissioning aspects, as well as fundamentals of beam-vacuum interactions with synchrotron radiation and electron cloud.",
+        "published": "2026-01-16",
+        "url": "http://arxiv.org/abs/2601.11361v1",
+        "source": "arXiv",
+        "mapping_chapter": "熱學與能量 (Thermodynamics)",
+        "mapping_keyword": "ideal gas law",
+        "subject": "physics"
+    },
+    "content": "# 加速器中的真空：讓粒子暢行無阻的奧秘\n\n## 1. 研究背景與課本關聯\n\n你有沒有想過，為什麼太空看起來是黑的？因為太空幾乎是真空，沒有空氣分子散射光線。而科學家為了研究微小的粒子，例如電子或質子，常常會利用「加速器」將它們加速到非常高的速度。但這些高速粒子就像飛機一樣，如果空氣阻力太大，就會減速甚至偏離軌道。因此，加速器內部必須維持極高的真空，才能讓粒子們暢行無阻。這與高中物理課本中「熱學與能量」的「理想氣體定律」息息相關，因為真空的維持，需要理解氣體的性質與行為。\n\n## 2. 核心發現\n\n這篇研究探討了加速器中真空系統的原理與應用。加速器之所以需要真空，是因為粒子在高速運動時，與殘留氣體分子碰撞會損失能量，影響實驗結果。為了維持真空，科學家需要了解一些重要的物理概念：\n\n*   **壓力與單位：** 我們通常用「帕斯卡 (Pa)」來衡量壓力，但真空系統中，壓力非常小，常常用「托 (Torr)」或「帕斯卡 (Pa)」的更小單位來表示。\n*   **理想氣體定律：** 就像課本裡學的 *PV = nRT*，壓力 (P)、體積 (V)、莫耳數 (n)、理想氣體常數 (R) 和絕對溫度 (T) 之間有著密切的關係。要降低加速器內的壓力，除了減少氣體分子數量 (n) 之外，也可以降低溫度 (T)。\n*   **分壓定律：** 加速器中的殘留氣體通常不是單一種氣體，而是多種氣體的混合物。每種氣體都會對總壓力產生貢獻，稱為「分壓」。\n*   **平均自由程：** 氣體分子在碰撞前行進的平均距離，稱為「平均自由程」。真空度越高，平均自由程越長，粒子就越不容易與氣體分子碰撞。\n*   **氣體流量與導通度：** 氣體分子從一個地方流向另一個地方的速度，稱為「氣體流量」。而管道的「導通度」則決定了氣體流量的大小。\n*   **抽氣速率：** 抽氣機將氣體分子從系統中移除的速度，稱為「抽氣速率」。\n*   **釋氣：** 材料本身會釋放出氣體分子，稱為「釋氣」。加速器內壁的材料選擇非常重要，必須選擇釋氣量小的材料。\n\n除了這些基本概念，研究也介紹了常用的真空儀器，例如壓力計和抽氣機。更進一步地，研究探討了加速器中特殊的真空問題，例如「同步輻射」和「電子雲」效應，這些效應會產生額外的氣體分子，使得維持真空更加困難。科學家需要針對這些問題，設計更精密的真空系統，才能確保加速器的正常運作。\n\n---\n\n===QUIZ_JSON===\n{\n    \"question\": \"某加速器內部管路的體積為 100 公升，初始時充滿了 27°C 的氮氣，壓力為 100 Pa。若要將壓力降低到 1 Pa，假設溫度維持不變，則需要將多少莫耳的氮氣抽出？(氮氣的理想氣體常數 R = 8.314 J/(mol·K))\",\n    \"options\": [\n        \"(A) 0.04 莫耳\",\n        \"(B) 0.4 莫耳\",\n        \"(C) 4 莫耳\",\n        \"(D) 40 莫耳\"\n    ],\n    \"correct_answer\": \"B\",\n    \"explanation\": \"根據理想氣體定律 PV = nRT，當溫度 T 和氣體常數 R 不變時，壓力 P 與莫耳數 n 成正比。因此，要將壓力降低到 1/100，就需要將莫耳數降低到 1/100。初始莫耳數 n1 = PV/RT = (100 Pa * 0.1 m^3) / (8.314 J/(mol·K) * 300 K) ≈ 0.4 莫耳。因此，需要抽出的莫耳數為 0.4 - (1/100)*0.4 = 0.396 ≈ 0.4 莫耳。\"\n}\n",
+    "processed_at": "2026-02-03 11:59:59",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同真空度下，加速器中質子平均自由程變化",
+            "x_label": "真空度 (Torr)",
+            "y_label": "平均自由程 (公分)",
+            "data_x": [
+                1,
+                0.1,
+                0.01,
+                0.001,
+                0.0001
+            ],
+            "data_y": [
+                0.06,
+                0.6,
+                6,
+                60,
+                600
+            ]
+        },
+        "question": "某研究團隊正在研究加速器真空度對質子平均自由程的影響。下圖顯示了不同真空度下，質子的平均自由程變化趨勢。根據圖表，當真空度降低到初始值的 1/10 時，質子的平均自由程大約變為多少倍？",
+        "options": [
+            "(A) 10 倍",
+            "(B) 6 倍",
+            "(C) 100 倍",
+            "(D) 600 倍"
+        ],
+        "correct_answer": "A",
+        "explanation": "根據圖表，初始真空度為 1 Torr 時，平均自由程約為 0.06 公分。當真空度降低到 0.1 Torr 時，平均自由程約為 0.6 公分。因此，平均自由程變為 0.6 / 0.06 = 10 倍。"
+    }
+}

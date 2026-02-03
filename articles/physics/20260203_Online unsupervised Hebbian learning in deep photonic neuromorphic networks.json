@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Online uns",
+    "meta": {
+        "title": "Online unsupervised Hebbian learning in deep photonic neuromorphic networks",
+        "summary": "While software implementations of neural networks have driven significant advances in computation, the von Neumann architecture imposes fundamental limitations on speed and energy efficiency. Neuromorphic networks, with structures inspired by the brain's architecture, offer a compelling solution with the potential to approach the extreme energy efficiency of neurobiological systems. Photonic neuromorphic networks (PNNs) are particularly attractive because they leverage the inherent advantages of light, namely high parallelism, low latency, and exceptional energy efficiency. Previous PNN demonstrations have largely focused on device-level functionalities or system-level implementations reliant on supervised learning and inefficient optical-electrical-optical (OEO) conversions. Here, we introduce a purely photonic deep PNN architecture that enables online, unsupervised learning. We propose a local feedback mechanism operating entirely in the optical domain that implements a Hebbian learning rule using non-volatile phase-change material synapses. We experimentally demonstrate this approach on a non-trivial letter recognition task using a commercially available fiber-optic platform and achieve a 100 percent recognition rate, showcasing an all-optical solution for efficient, real-time information processing. This work unlocks the potential of photonic computing for complex artificial intelligence applications by enabling direct, high-throughput processing of optical information without intermediate OEO signal conversions.",
+        "published": "2026-01-29",
+        "url": "http://arxiv.org/abs/2601.22300v1",
+        "source": "arXiv",
+        "mapping_chapter": "光學與波動 (Optics & Waves)",
+        "mapping_keyword": "fiber optics",
+        "subject": "physics"
+    },
+    "content": "# 光速學習：用光打造更聰明的電腦 (Online unsupervised Hebbian learning in deep photonic neuromorphic networks)\n\n## 1. 研究背景與課本關聯\n\n你是否曾經想過，為什麼電腦在處理圖像或語音時，需要花費大量的電力？這就像我們在黑暗中摸索，需要不斷地「思考」才能辨識物體一樣。而人類的大腦卻能以極低的功耗，快速處理複雜的資訊。科學家們正試圖模仿大腦的結構，打造更有效率的電腦。這項研究就與我們高中物理課本中學習的「光學與波動」息息相關，因為它利用了光的特性，例如高速度和低能量消耗，來建構新型的電腦架構。想想光纖網路，資料以光速傳輸，這就是光學的優勢！\n\n## 2. 核心發現\n\n這篇論文描述了一種全新的電腦架構，稱為「光子神經網路」(Photonic Neuromorphic Networks, PNNs)。傳統電腦使用電子來運算，但光子神經網路則使用光！這就像用光纖代替電線一樣，可以大幅提升速度和降低功耗。\n\n更特別的是，這個光子神經網路可以「自主學習」，不需要像傳統的人工智慧一樣，需要大量標記過的資料來訓練。這種學習方式稱為「赫布學習法則」(Hebbian learning rule)，簡單來說，就是「一起運作的神經元，連結會更強」。想像一下，你越常練習鋼琴，手指肌肉的連結就會越緊密，彈奏起來就越順暢。\n\n研究團隊設計了一個由多層光學元件組成的深度光子神經網路。這個網路中的「突觸」(synapses) 使用一種特殊的材料，稱為「變色材料」(phase-change material)，它可以改變光的相位，就像調整音量大小一樣。透過這個變色材料，光子神經網路可以根據輸入的光信號，調整突觸的強度，進而學習和記憶。\n\n最令人驚豔的是，研究團隊利用市售的光纖平台，成功地讓這個光子神經網路辨識字母，而且準確率高達 100%！而且整個過程都是在光學領域完成，不需要像傳統方法一樣，將光信號轉換成電信號再轉換回光信號 (optical-electrical-optical, OEO conversions)，這大大提升了效率。\n\n這項研究的意義在於，它證明了光子電腦在處理複雜人工智慧應用，例如圖像辨識和語音辨識，具有巨大的潛力。未來，我們或許可以利用光子電腦，打造出更快速、更節能、更聰明的電腦。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"小明設計了一個光子神經網路來辨識手寫數字。他發現網路在辨識數字「6」時，準確率較低。根據論文中的研究，下列哪種方法最能有效提升網路辨識「6」的準確率？\",\n    \"options\": [\n        \"(A) 增加網路中光纖的數量，以提升光信號的傳輸速度。\",\n        \"(B) 調整變色材料的特性，使其對「6」的特定光學特徵更敏感，強化相關突觸的連結。\",\n        \"(C) 將光信號轉換成電信號，再利用傳統的電子神經網路進行訓練。\",\n        \"(D) 降低網路的深度，以減少計算複雜度。\"\n    ],\n    \"correct_answer\": \"B\",\n    \"explanation\": \"根據論文，赫布學習法則強調「一起運作的神經元，連結會更強」。因此，要提升網路辨識「6」的準確率，最有效的方法是調整變色材料，使其對「6」的特定光學特徵更敏感，強化相關突觸的連結，讓網路更容易辨識出「6」。選項 (A) 提升傳輸速度，但無法改善辨識準確率；選項 (C) 引入了效率較低的 OEO 轉換；選項 (D) 降低深度可能反而降低辨識能力。\"\n}\n",
+    "processed_at": "2026-02-03 11:53:09",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "光子神經網路辨識字母準確率與網路深度關係",
+            "x_label": "網路層數 (Layer)",
+            "y_label": "辨識準確率 (%)",
+            "data_x": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12
+            ],
+            "data_y": [
+                75,
+                88,
+                95,
+                98,
+                99,
+                99.5
+            ]
+        },
+        "question": "研究團隊利用光子神經網路辨識字母，發現網路的辨識準確率與網路深度有關。根據圖表所示的數據，下列敘述何者最合理？",
+        "options": [
+            "(A) 網路層數增加，辨識準確率隨之提升，但超過 10 層後，準確率提升幅度趨於平緩。",
+            "(B) 網路層數增加，辨識準確率反而下降，表示過深的網路會降低辨識能力。",
+            "(C) 網路層數與辨識準確率之間沒有明顯關聯，準確率維持在 75% 左右。",
+            "(D) 網路層數為 4 層時，辨識準確率最高，達到 98%。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著網路層數的增加，辨識準確率整體呈現上升趨勢。然而，當網路層數超過 10 層後，準確率的提升幅度明顯減緩，趨近於一個極限值。這表示增加網路深度可以提升辨識準確率，但過深的網路並不會帶來顯著的改善，甚至可能因為複雜度增加而導致過擬合。"
+    }
+}

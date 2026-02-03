@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Superlight",
+    "meta": {
+        "title": "Superlight inverse Doppler effect",
+        "summary": "There is a century-old tenet [1, 2] that the inverse Doppler frequency shift of light [3-13] is impossible in homogeneous systems with a positive refractive index. Here we break this long-held tenet by predicting a new kind of Doppler effect of light inside the Cherenkov cone. Ever since the classic work of Ginzburg and Frank, it has been known that a superlight (i.e., superluminal) normal Doppler effect [14-18] appears inside the Cherenkov cone when the velocity of the source v is larger than the phase velocity of light v_p. By further developing their theory we discover that an inverse Doppler frequency shift will arise when v>2v_p. We denote this as the superlight inverse Doppler effect. Moreover, we show that the superlight inverse Doppler effect can be spatially separated from the other Doppler effects by using highly squeezed polaritons (such as graphene plasmons), which may facilitate the experimental observation.",
+        "published": "2018-05-31",
+        "url": "http://arxiv.org/abs/1805.12427v1",
+        "source": "arXiv",
+        "mapping_chapter": "光學與波動 (Optics & Waves)",
+        "mapping_keyword": "doppler effect",
+        "subject": "physics"
+    },
+    "content": "# 超光速反多普勒效應\n\n## 1. 研究背景與課本關聯\n\n你可能在生活中聽過救護車或警車的警笛聲，當它們快速靠近時，聲音會變得尖銳，遠離時則會變得低沉，這就是「多普勒效應」。光線也會有類似的現象，當光源靠近我們時，光波會被壓縮，波長變短，頻率變高，呈現「藍移」；反之，遠離時則呈現「紅移」。高中物理的「光學與波動」章節中，我們學習到多普勒效應是描述波源與觀察者之間相對運動所產生的頻率變化。然而，長久以來，科學家認為光線的反多普勒效應（頻率降低）在一般情況下是不可能發生的。這篇研究挑戰了這個傳統觀念！\n\n## 2. 核心發現\n\n這篇論文報告了一個令人驚訝的發現：在特定條件下，光線確實可以產生反多普勒效應，而且這個效應與波源的速度有關。\n\n傳統的多普勒效應，我們假設波源的速度 *v* 小於光在介質中的「相位速度」*v<sub>p</sub>*。相位速度是指波的某個固定相位（例如波峰）傳播的速度。當波源速度超過相位速度時，會產生一種稱為「超光速多普勒效應」的現象，但這並非表示波源真的超過了光速，而是指在特定介質中，相位速度可以低於光速。\n\n這篇論文更進一步指出，當波源的速度 *v* 大於兩倍的相位速度 *2v<sub>p</sub>* 時，就會出現一種全新的現象——「超光速反多普勒效應」。這表示，在這種極端情況下，光線的頻率會降低，呈現更強烈的紅移。\n\n更重要的是，研究團隊提出利用「高度擠壓的極化子」（例如石墨烯電漿子）來分離這種超光速反多普勒效應與其他多普勒效應。極化子可以被視為光與物質的強烈耦合態，透過控制極化子的特性，可以更清晰地觀察到這種特殊的反多普勒效應。\n\n這個發現挑戰了我們對光線多普勒效應的傳統認知，並為未來光學研究開闢了新的方向。雖然實驗條件要求較高，但透過精密的材料控制，或許有一天我們能夠在實驗室中驗證這個奇特的現象。\n\n---\n```json\n{\n    \"question\": \"一輛太空船以超光速（相對於某種特殊介質）的速度行駛，並發射一束雷射光。根據這篇論文的發現，如果太空船的速度是該介質中光相位速度的 2.5 倍，那麼接收者觀測到的雷射光頻率變化將會如何？\",\n    \"options\": [\n        \"(A) 頻率增加，呈現藍移。\",\n        \"(B) 頻率降低，呈現紅移。\",\n        \"(C) 頻率不變。\",\n        \"(D) 頻率先增加後降低。\"\n    ],\n    \"correct_answer\": \"B\",\n    \"explanation\": \"根據論文，當波源速度 v 大於兩倍的相位速度 2v<sub>p</sub> 時，會出現超光速反多普勒效應，導致頻率降低，呈現紅移。太空船的速度是相位速度的 2.5 倍，滿足 v > 2v<sub>p</sub> 的條件，因此接收者觀測到的雷射光頻率會降低。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:58:10",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同速度下超光速反多普勒效應的頻率偏移量",
+            "x_label": "波源速度 (v) / 相位速度 (v<sub>p</sub>)",
+            "y_label": "頻率偏移量 (Δf / f<sub>0</sub>, 無單位)",
+            "data_x": [
+                1.5,
+                2.1,
+                2.5,
+                2.8,
+                3.0,
+                3.5
+            ],
+            "data_y": [
+                -0.01,
+                -0.05,
+                -0.12,
+                -0.25,
+                -0.4,
+                -0.65
+            ]
+        },
+        "question": "研究團隊進行一系列實驗，探討波源速度與超光速反多普勒效應頻率偏移量之間的關係。圖表顯示了不同波源速度（以相位速度的倍數表示）下，頻率偏移量（相對於原始頻率）的變化。根據圖表數據，下列敘述何者正確？",
+        "options": [
+            "(A) 當波源速度為相位速度的 2.5 倍時，頻率偏移量為負值，表示頻率降低。",
+            "(B) 當波源速度接近相位速度時，頻率偏移量會迅速增加。",
+            "(C) 波源速度與頻率偏移量之間呈現正相關。",
+            "(D) 頻率偏移量在波源速度大於相位速度的 3 倍後趨於穩定。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，當波源速度為相位速度的 2.5 倍時，對應的頻率偏移量為 -0.12，負值表示頻率降低，即呈現紅移。選項 (B) 錯誤，因為圖表顯示頻率偏移量在波源速度接近相位速度時變化較小。選項 (C) 錯誤，因為圖表顯示波源速度與頻率偏移量之間呈現負相關。選項 (D) 錯誤，因為圖表顯示頻率偏移量在波源速度大於 3 倍後持續增加，並未趨於穩定。"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Tuning cho",
+    "meta": {
+        "title": "Tuning cholesteric cellulose nanocrystal self-assembly in spherical confinement via salt and sonication",
+        "summary": "Cellulose nanocrystals (CNCs) self-assemble into cholesteric liquid crystals that produce structural color upon solvent removal. Although most studies examine this process in planar films, confinement within micron-sized water-in-oil droplets provides a powerful platform for resolving self-assembly dynamics in real time. Here, we investigate how two common pitch-tuning strategies, sodium chloride addition and tip sonication, govern the kinetics and structure of CNC self-assembly under spherical confinement. Polarized optical microscopy timelapses capture the evolution from isotropic suspension through tactoid nucleation and annealing to kinetic arrest and final buckling. Consistent with prior work, pitch-concentration analysis reveals a universal post-arrest regime governed by droplet shrinkage. Beyond this established behavior, we identify a pre-arrest regime in which pitch decreases rapidly and whose kinetics accelerate with increasing salt concentration and sonication dose. These parameters shift the onset of cholesteric order and gelation, thereby tuning the concentration window for tactoid coalescence. Together, these results establish droplet confinement as a quantitative platform for probing out-of-equilibrium CNC self-assembly and for kinetically programming structurally colored soft materials.",
+        "published": "2026-01-12",
+        "url": "http://arxiv.org/abs/2601.07429v1",
+        "source": "arXiv",
+        "mapping_chapter": "光學與波動 (Optics & Waves)",
+        "mapping_keyword": "polarization optics",
+        "subject": "physics"
+    },
+    "content": "# 調控膽甾醇液晶纖維素奈米晶體在球形空間的自組裝：鹽類與超音波的影響\n\n## 1. 研究背景與課本關聯\n\n你有沒有觀察過肥皂泡泡或CD光碟的表面？它們呈現出美麗的彩虹色，這其實跟「光線的干涉」和「繞射」有關！這些現象在高中物理的「光學與波動」章節中學習到。本研究探討的是一種特殊的材料──纖維素奈米晶體，它在特定條件下會自組裝成具有類似CD光碟表面結構的「膽甾醇液晶」，並產生結構色。研究人員想知道，如何透過改變環境條件，來控制這種自組裝的過程，進而設計出具有特定顏色的材料。\n\n## 2. 核心發現\n\n這項研究主要探討了如何利用鹽類（氯化鈉）和超音波來控制纖維素奈米晶體在微小水滴中的自組裝過程。想像一下，將這些奈米晶體放在油中，形成許多個獨立的小水滴，每個水滴就像一個微型的實驗室。\n\n首先，纖維素奈米晶體原本在水中是分散的，呈現「各向同性」狀態，也就是光在各個方向上傳播都一樣。但隨著水分蒸發，這些奈米晶體會開始自組裝，形成螺旋狀的結構，稱為「膽甾醇液晶」。這種螺旋結構會選擇性地反射特定波長的光，產生我們看到的顏色，這與「偏振光」的原理有關。\n\n研究人員觀察到，在自組裝過程中，會先形成一些不規則的「觸狀體」（tactoid），然後這些觸狀體會逐漸融合、排列，最後因為水滴體積縮小而產生「屈曲」現象。這個過程就像一堆沙子慢慢堆積成一座小山，然後因為地基不穩而崩塌一樣。\n\n更重要的是，研究發現，加入鹽類或使用超音波可以加速自組裝的過程，並改變螺旋結構的「螺距」（pitch）。螺距指的是螺旋結構的間距，它決定了反射光的波長，進而影響材料的顏色。鹽類濃度越高、超音波能量越大，螺距就越小，自組裝的起始時間就越早，並且更容易形成穩定的膽甾醇液晶結構。\n\n換句話說，研究人員就像是調色盤上的調色師，透過控制鹽類和超音波的用量，就能精準地控制纖維素奈米晶體的自組裝過程，進而「量身打造」具有特定顏色的軟性材料。這種技術在未來可能應用於開發新型的顯示器、感測器或光學元件。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"一束白光照射在一層具有特定螺距的膽甾醇液晶纖維素奈米晶體薄膜上，觀察到反射出黃綠色光。若欲使反射光顏色變為藍色，下列哪種方法最可行？（假設其他條件不變）\",\n    \"options\": [\n        \"(A) 增加纖維素奈米晶體的濃度\",\n        \"(B) 降低纖維素奈米晶體的濃度\",\n        \"(C) 增大膽甾醇液晶的螺距\",\n        \"(D) 減小膽甾醇液晶的螺距\"\n    ],\n    \"correct_answer\": \"D\",\n    \"explanation\": \"膽甾醇液晶反射光的波長與螺距有關，關係式為 λ = n * p，其中λ為反射光的波長，n為液晶的折射率，p為螺距。黃綠色光的波長較長，藍色光的波長較短。為了使反射光顏色從黃綠色變為藍色，必須減小螺距p。濃度主要影響自組裝過程，而非直接改變反射光的波長。\"\n}\n",
+    "processed_at": "2026-02-03 11:59:37",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同超音波能量下纖維素奈米晶體膽甾醇液晶螺距變化",
+            "x_label": "超音波能量 (瓦特/公分²)",
+            "y_label": "螺距 (奈米)",
+            "data_x": [
+                0,
+                0.2,
+                0.4,
+                0.6,
+                0.8,
+                1.0
+            ],
+            "data_y": [
+                550,
+                480,
+                410,
+                350,
+                300,
+                260
+            ]
+        },
+        "question": "研究人員利用不同能量的超音波處理纖維素奈米晶體水溶液，測量得到的膽甾醇液晶螺距如圖所示。根據圖表資訊，下列敘述何者正確？",
+        "options": [
+            "(A) 超音波能量增加，螺距會減小。",
+            "(B) 超音波能量增加，螺距會增大。",
+            "(C) 螺距與超音波能量之間沒有明顯關係。",
+            "(D) 當超音波能量為 0.6 瓦特/公分²時，螺距達到最大值。"
+        ],
+        "correct_answer": "A",
+        "explanation": "從圖表中可以明顯觀察到，隨著超音波能量的增加，螺距的值逐漸減小。這符合文章中提到的「鹽類濃度越高、超音波能量越大，螺距就越小」的結論。超音波能量的增加加速了自組裝過程，並使螺旋結構更緊密，因此螺距減小。"
+    }
+}
